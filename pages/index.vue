@@ -2,14 +2,19 @@
   <div class="bg-blue-200 flex justify-center">
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
-      <p>Schätze, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Merkmale haben, die sich auf die Nutzung Ihrer Dienstleistung auswirken könnten.</p>
+      <p>Schätze, wie viele Menschen in Deutschland eine Behinderung, Beeinträchtigung oder andere Merkmale haben, die sich auf die Nutzung Ihrer Dienstleistung auswirken könnten.</p>
       <form class="mt-16">
         <label for="number-of-users" class="font-bold">Erwartete Anzahl der Nutzenden:</label>
         <input name="number-of-users" id="number-of-users" class="ds-input mt-6" type="number" v-model="numberOfUsers" placeholder="Anzahl der Nutzenden">
       </form>
     </div>
   </div>
-  <div class="flex justify-center" v-if="numberOfUsers != null"  aria-live="polite">
+  <div class="bg-yellow-300 flex justify-center">
+    <div class="px-32 p-16 max-w-3xl text-left w-full">
+      <p>Diese Seite befindet sich im Aufbau und die angezeigten Daten können unvollständig sein.</p>
+    </div>
+  </div>
+  <div class="flex justify-center" v-if="numberOfUsers !== 0 && numberOfUsers != null && numberOfUsers != ''"  aria-live="polite">
     <div class="p-32 max-w-3xl">
       <h2 class="mb-24">Ergebnis für {{numberOfUsers}} Nutzende</h2>
       <table class="w-full text-left mt-10">
