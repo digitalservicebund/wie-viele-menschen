@@ -5,10 +5,18 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        @apply ds-body-01-reg
+    }
+
     h1 {
         @apply ds-heading-01-reg
     }
     h2 {
         @apply ds-heading-02-reg
+    }
+
+    th, td {
+        @apply p-6;
     }
 }
