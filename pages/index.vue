@@ -6,14 +6,12 @@
       <form class="mt-16">
         <label for="number-of-users" class="font-bold">Erwartete Anzahl der Nutzenden:</label>
         <input name="number-of-users" id="number-of-users" class="ds-input mt-6" type="number" v-model="numberOfUsers" placeholder="Anzahl der Nutzenden">
-<!--        <button class="ds-button mt-16" @click="setNumberOfUsers">Berechnen</button>-->
       </form>
     </div>
   </div>
-  <div class="flex justify-center" v-if="numberOfUsers !== null">
+  <div class="flex justify-center" v-if="numberOfUsers != null"  aria-live="polite">
     <div class="p-32 max-w-3xl">
       <h2 class="mb-24">Ergebnis für {{numberOfUsers}} Nutzende</h2>
-      <p>Diese Ergebnisse beruhen auf Daten aus verschiedenen Quellen, und es kann sein, dass Personen unter ein oder mehrere Kriterien fallen, so dass sich die Zahlen nicht auf {{numberOfUsers}} summieren.</p>
       <table class="w-full text-left mt-10">
         <thead>
         <tr>
