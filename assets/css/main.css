@@ -1,0 +1,14 @@
+@import "@digitalservice4germany/angie/fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply ds-heading-01-reg
+    }
+    h2 {
+        @apply ds-heading-02-reg
+    }
+}
