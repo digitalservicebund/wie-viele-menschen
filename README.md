@@ -30,7 +30,6 @@ Locally preview production build:
 npm run preview
 ```
 
-
 ## Contributing
 
 🇬🇧
@@ -42,6 +41,7 @@ providing documentation or answering questions or giving feedback. Please always
 Jede:r ist herzlich eingeladen, die Entwicklung der _a11y-tools_ mitzugestalten. Du kannst einen Beitrag leisten,
 indem du Pull-Requests eröffnest, die Dokumentation erweiterst, Fragen beantwortest oder Feedback gibst.
 Bitte befolge immer die Richtlinien und unseren [Verhaltenskodex](CODE_OF_CONDUCT_DE.md).
+
 ### Contributing code
 
 🇬🇧
