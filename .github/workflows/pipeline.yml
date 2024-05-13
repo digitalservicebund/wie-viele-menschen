@@ -1,0 +1,185 @@
+name: Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Allow to run this workflow manually
+  workflow_dispatch:
+
+env:
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: validate github workflow files to have pinned versions
+        uses: digitalservicebund/github-actions/github-actions-linter@ca94f38ed2758daca16689e876dd0d399aa7d18a
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Cache npm dependencies
+        id: cache-npm-deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            **/node_modules
+          key: "${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}"
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        if: steps.cache-npm-deps.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Build for tests
+        run: npm run build
+
+      - name: Check format
+        run: npm run format:check
+
+      - name: Lint
+        run: npm run lint:check
+
+      #      - name: Run tests
+      #        run: npm test
+      #
+      #      - name: Install E2E test dependencies
+      #        run: |
+      #          npx --yes playwright install-deps
+      #          npx --yes playwright install
+      #
+      #      - name: Run E2E tests
+      #        run: npm run test:e2e
+      #
+      #      - uses: actions/upload-artifact@v4
+      #        with:
+      #          name: playwright-test-results
+      #          path: test-results
+      #
+      #      - name: Run a11y tests
+      #        run: npm run test:a11y
+      #        env:
+      #          # Use a different port (from the one used with E2E tests) to workaround problem in CI/GitHub Actions,
+      #          # starting to occur with playwright/test 1.28.0:
+      #          # Error: http://localhost:4173 is already used ...
+      #          # See https://github.com/digitalservicebund/typescript-vite-application-template/actions/runs/3486985178/jobs/5834089375
+      #          VITE_PORT: 4183
+
+      - name: Build for production
+        run: npm run build:pages
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.output/public
+
+      - name: Send status to Slack
+        uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
+        if: ${{ failure() }}
+        with:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  audit-licenses:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Cache npm dependencies
+        id: cache-npm-deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            **/node_modules
+          key: "${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}"
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        if: steps.cache-npm-deps.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Audit used licences
+        run: npm run audit:licences
+
+      - name: Send status to Slack
+        uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
+        if: ${{ failure() }}
+        with:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  vulnerability-scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - name: Run Trivy vulnerability scanner
+        # Third-party action, pin to commit SHA!
+        # See https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions
+        uses: aquasecurity/trivy-action@d710430a6722f083d3b36b8339ff66b32f22ee55 # v0.19.0
+        env:
+          TRIVY_USERNAME: ${{ github.actor }}
+          TRIVY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          scan-type: "fs"
+          skip-dirs: "node_modules" # See https://github.com/aquasecurity/trivy/issues/1283
+          format: "sarif"
+          output: "trivy-results.sarif"
+
+      - name: Upload Trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@592977e6ae857384aa79bb31e7a1d62d63449ec5 # v2
+        if: always() # Bypass non-zero exit code..
+        with:
+          sarif_file: "trivy-results.sarif"
+
+      - name: Send status to Slack
+        uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
+        if: ${{ failure() }}
+        with:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs:
+      - build
+      - audit-licenses
+      - vulnerability-scan
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send status to Slack
+        uses: digitalservicebund/notify-on-failure-gha@15dd05b628141b7bac0ad26e08c1935cb3ba6bc8 # v1.4.0
+        if: ${{ failure() }}
+        with:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
