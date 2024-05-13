@@ -44,12 +44,13 @@
   <div v-if="numberOfUsersCurrent !== 0" class="flex justify-center">
     <div class="p-32 max-w-3xl">
       <h2 class="mb-24">
-        Ergebnis für <b>{{ numberOfUsersCurrent }}</b> Nutzende
+        Ergebnis für <b>{{ formatNumber(numberOfUsersCurrent) }}</b> Nutzende
       </h2>
       <p>
         Diese Ergebnisse beruhen auf Daten aus verschiedenen Quellen. Es kann
         vorkommen, dass Personen unter ein oder mehrere Kriterien fallen, so
-        dass sich die Zahlen nicht auf {{ numberOfUsersCurrent }} addieren.
+        dass sich die Zahlen nicht auf
+        {{ formatNumber(numberOfUsersCurrent) }} addieren.
       </p>
       <div v-for="(group, groupIndex) in data" :key="groupIndex">
         <h3>
@@ -70,7 +71,13 @@
               class="border-t border-black odd:bg-gray-200"
             >
               <td>{{ item.characteristic }}</td>
-              <td>{{ (item.percentage * numberOfUsersCurrent).toFixed(0) }}</td>
+              <td>
+                {{
+                  formatNumber(
+                    (item.percentage * numberOfUsersCurrent).toFixed(0),
+                  )
+                }}
+              </td>
               <td>
                 <a
                   class="text-blue-800 underline hover:text-blue-700"
@@ -103,6 +110,9 @@ export default {
   methods: {
     setNumberOfUsers() {
       this.numberOfUsersCurrent = this.numberOfUsersInput;
+    },
+    formatNumber(value: number) {
+      return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     },
   },
 };
