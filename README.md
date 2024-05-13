@@ -2,6 +2,23 @@
 
 A small website that displays how many of your users in Germany statistically have some type of disability.
 
+## Prerequisites
+
+### Node.js
+
+We aim to use the current active [LTS version of nodejs](https://nodejs.dev/en/about/releases/), which is V22 at the time of writing.
+There is a `.node-version` file to simplify setup using [nodenv](https://github.com/nodenv/nodenv).
+
+### Git Hooks
+
+For the provided Git hooks you will need to install [lefthook](https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md)
+(git hook manager):
+
+```bash
+brew install lefthook
+./run.sh init
+```
+
 ## Install
 
 ```bash
