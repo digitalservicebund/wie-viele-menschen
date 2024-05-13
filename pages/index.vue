@@ -3,13 +3,14 @@
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
       <p>
-        Schätze, wie viele Menschen in Deutschland eine Behinderung,
-        Beeinträchtigung oder andere Merkmale haben, die sich auf die Nutzung
-        Ihrer Dienstleistung auswirken könnten.
+        Menschen mit einer Behinderung stellen oftmals andere Anforderungen an
+        Dienstleistungen und Services. Geben Sie die (erwartete) Gesamtzahl der
+        Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung
+        Ihren Service nutzen.
       </p>
       <form class="mt-16">
         <label for="number-of-users" class="font-bold"
-          >Erwartete Anzahl der Nutzenden:</label
+          >Anzahl der Menschen, die den Service nutzen:</label
         >
         <input
           id="number-of-users"
@@ -17,7 +18,7 @@
           name="number-of-users"
           class="ds-input mt-6"
           type="number"
-          placeholder="Anzahl der Nutzenden"
+          placeholder="Anzahl der Menschen"
         />
       </form>
     </div>
@@ -27,6 +28,18 @@
       <p>
         Diese Seite befindet sich im Aufbau und die angezeigten Daten können
         unvollständig sein.
+      </p>
+    </div>
+  </div>
+  <div
+    v-if="numberOfUsers === 0 || numberOfUsers == null || numberOfUsers == ''"
+    class="flex justify-center"
+    aria-live="polite"
+  >
+    <div class="p-32 max-w-3xl">
+      <p>
+        Wenn Sie oben eine Zahl eingeben, erhalten Sie Informationen über die
+        geschätzte Anteil der Personen, die eine Behinderung haben könnten.
       </p>
     </div>
   </div>
@@ -41,8 +54,8 @@
         <thead>
           <tr>
             <th>Art der Behinderung</th>
-            <th>Erwartete Anzahl</th>
-            <th></th>
+            <th>Anzahl</th>
+            <th>Quelle</th>
           </tr>
         </thead>
         <tbody>
