@@ -90,7 +90,7 @@
 </template>
 
 <script lang="ts">
-import data from "public/data/data.json";
+import data from "public/data.json";
 
 export default {
   data() {
