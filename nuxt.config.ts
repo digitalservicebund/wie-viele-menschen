@@ -14,8 +14,23 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "WCAG Requirements",
-      meta: [{ name: "description", content: "All WCAG Requirements" }],
+      title: "Wie viele Menschen?",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Geben Sie die (erwartete) Gesamtzahl der Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung Ihren Service nutzen.",
+        },
+      ],
+      link: [
+        { rel: "icon", type: "image/png", href: "/favicon-16x16.png" },
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/favicon-32x32.png",
+          sizes: "32x32",
+        },
+      ],
     },
   },
 });
