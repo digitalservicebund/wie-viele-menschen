@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Behinderungen, Beeinträchtigungen und Erkrankungen",
+    "data": [
+      {
+        "characteristic": "Sehschwäche",
+        "source": "Kuratorium Gutes Sehen/Zentralverband der Augenoptiker und Optometristen",
+        "link": "https://www.zva.de/brillenstudie",
+        "percentage": 0.666
+      },
+      {
+        "characteristic": "Rechenschwäche",
+        "source": "Stiftung Rechnen",
+        "link": "https://www.stiftungrechnen.de/wp-content/uploads/2021/03/Ergebnisbericht-Studie-Rechnen-in-Deutschland.pdf",
+        "percentage": 0.63
+      },
+      {
+        "characteristic": "Psychische Krankheiten",
+        "source": "AXA Mental Health Report 2024",
+        "link": "https://www.axa.de/presse/mediathek/studien-und-forschung/mental-health-report-2024",
+        "percentage": 0.31
+      },
+      {
+        "characteristic": "Motorische Einschränkungen",
+        "source": "Deutsches Rheuma-Forschungszentrum Berlin",
+        "link": "https://dgrh.de/dam/jcr:29cb645e-2839-4f89-a456-882e728f75b4/Rheuma%20in%20Zahlen.pdf",
+        "percentage": 0.25
+      },
+      {
+        "characteristic": "Nicht-Muttersprachler:innen",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.businessinsider.de/politik/sprache-15-prozent-aller-menschen-in-deutschland-sprechen-zu-hause-kein-oder-kaum-deutsch/#:~:text=15%20Prozent%20aller%20Menschen%20in%20Deutschland%20sprechen%20zuhause%20kein%20oder%20kaum%20Deutsch&text=15%20Prozent%20der%20Menschen%2C%20die,zum%20%E2%80%9ETag%20der%20Muttersprache%E2%80%9C.",
+        "percentage": 0.15
+      },
+      {
+        "characteristic": "Hörschädigung und Schwerhörigkeit",
+        "source": "EuroTrak Germany 2018 und WHO",
+        "link": "https://www.geers.de/hoeren-ohrengesundheit/ohrenkrankheiten/hoerverlust-und-schwerhoerigkeit/#:~:text=10%20Millionen%20Menschen%20in%20Deutschland,leiden%20an%20einer%20relevanten%20Schwerh%C3%B6rigkeit.",
+        "percentage": 0.11934
+      },
+      {
+        "characteristic": "Schwerbehinderung",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Tabellen/schwerbehinderte-alter-geschlecht-quote.html",
+        "percentage": 0.094
+      },
+      {
+        "characteristic": "Lese- und Schreibschwäche",
+        "source": "Lehrinstitute für Orthographie und Sprachkompetenz (LOS)",
+        "link": "https://www.los.de/ratgeber-fuer-lrs/lrs/lrs-bei-erwachsenen",
+        "percentage": 0.089499
+      },
+      {
+        "characteristic": "Begrenzte Deutschfähigkeiten",
+        "source": "Bundesministerium für Bildung und Forschung",
+        "link": "https://www.xn--mein-schlssel-zur-welt-0lc.de/de/helfen/zahlen-und-fakten/zahlen-und-fakten.html#:~:text=6%2C2%20Millionen%20Menschen%20oder,selbst%20bei%20gebr%C3%A4uchlichen%20W%C3%B6rtern%20auf.",
+        "percentage": 0.073986
+      },
+      {
+        "characteristic": "Mobilitätseinschränkung",
+        "source": "Bundesministerium für Verkehr und digitale Infrastruktur (BMVI)",
+        "link": "https://www.mobilitaet-in-deutschland.de/archive/publikationen2017.html",
+        "percentage": 0.07
+      },
+      {
+        "characteristic": "Rechenstörung (Dyskalkulie)",
+        "source": "Ärzteblatt/Statistisches Bundesamt",
+        "link": "https://www.aerzteblatt.de/archiv/205460/Diagnostik-und-Behandlung-der-Rechenstoerung#:~:text=Unter%20einer%20Rechenst%C3%B6rung%20(Dyskalkulie)%20leiden,wird%20nach%20wie%20vor%20untersch%C3%A4tzt.",
+        "percentage": 0.07
+      },
+      {
+        "characteristic": "Angststörungen",
+        "source": "IKK-Studie",
+        "link": "https://www.ikkev.de/presse/meldungen-aus-den-ikken/details/immer-mehr-menschen-mit-angststoerungen/?",
+        "percentage": 0.066
+      },
+      {
+        "characteristic": "Chronische Erkrankungen",
+        "source": "Robert Bosch Stiftung",
+        "link": "https://www.bosch-stiftung.de/sites/default/files/publications/pdf/2021-09/Mehr_Gesundheit_f%C3%BCr_eine_Gesellschaft_des_langen_Lebens.pdf",
+        "percentage": 0.047733
+      },
+      {
+        "characteristic": "ADHD (Erwachsenenalter)",
+        "source": "Universitätsklinikum Köln",
+        "link": "https://www.adhs.info/fuer-erwachsene/wichtige-zahlen-und-fakten",
+        "percentage": 0.047
+      },
+      {
+        "characteristic": "Rot-Grün-Farbenblindheit (Männer)",
+        "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
+        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
+        "percentage": 0.08
+      },
+      {
+        "characteristic": "Bipolare Störungen",
+        "source": "Deutsche Gesellschaft für Bipolare Störungen e.V.",
+        "link": "https://dgbs.de/bipolare-stoerung/verlauf",
+        "percentage": 0.03
+      },
+      {
+        "characteristic": "Lernschwächen und Lernstörungen",
+        "source": "Bundesverband zur Förderung von Menschen mit Lernbehinderungen",
+        "link": "https://lernen-foerdern.de/wp-content/uploads/2023/02/LERNEN-FOeRDERN_Eser_Statistik-zur-Lernbehinderung_12.12.2020.pdf",
+        "percentage": 0.023
+      },
+      {
+        "characteristic": "Demenzerkrankungen und Gedächtnisstörungen",
+        "source": "Deutsche Alzheimer Gesellschaft",
+        "link": "https://www.deutsche-alzheimer.de/artikel/deutsche-alzheimer-gesellschaft-stellt-neue-zahlen-zur-demenz-vor-deutlich-mehr-erkrankte-unter-65-jahren-als-bisher-angenommen#:~:text=Nach%20neuesten%20Berechnungen%20leben%20in,neu%20an%20einer%20Demenz%20erkrankt.",
+        "percentage": 0.02148
+      },
+      {
+        "characteristic": "Geistige Behinderung und zerebrale Störungen",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Tabellen/geschlecht-behinderung.html",
+        "percentage": 0.021366
+      },
+      {
+        "characteristic": "Autismus",
+        "source": "Autismus verstehen e.V.",
+        "link": "https://autismus-verstehen.de/autismus/haeufigkeit/#:~:text=Wissenschaftliche%20Untersuchungen%20in%20Deutschland%20sind,durchschnittlichen%20Angaben%20teilweise%20deutlich%20h%C3%B6her.",
+        "percentage": 0.01
+      },
+      {
+        "characteristic": "Blindheit und Sehbehinderung",
+        "source": "Deutscher Blinden- und Sehbehindertenverband",
+        "link": "https://www.dbsv.org/zahlen-fakten.html",
+        "percentage": 0.006667
+      },
+      {
+        "characteristic": "Rot-Grün-Farbenblindheit (Frauen)",
+        "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
+        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
+        "percentage": 0.004
+      },
+      {
+        "characteristic": "Gehörlosigkeit",
+        "source": "Bundesfachstelle Barrierefreiheit",
+        "link": "https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Information-und-Kommunikation/Gebaerdensprache/gebaerdensprache_node.html",
+        "percentage": 0.001
+      },
+      {
+        "characteristic": "Vollständige Farbenblindheit",
+        "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
+        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
+        "percentage": 0.000036
+      },
+      {
+        "characteristic": "Verlust oder Teilverlust von Gliedmaßen",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.000599
+      },
+      {
+        "characteristic": "Funktionseinschränkung von Gliedmaßen",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.010078
+      },
+      {
+        "characteristic": "Funktionseinschränkung der Wirbelsäule und des Rumpfes, Deformierung des Brustkorbes",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.009553
+      },
+      {
+        "characteristic": "Blindheit und Sehbehinderung",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.00402
+      },
+      {
+        "characteristic": "Sprach- oder Sprechstörungen, Taubheit, Schwerhörigkeit, Gleichgewichtsstörungen",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.003831
+      },
+      {
+        "characteristic": "Querschnittlähmung, Zerebrale Störungen, Geistig-Seelische Behinderungen, Suchtkrankheiten",
+        "source": "Statistische Bundesamt",
+        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
+        "percentage": 0.021461
+      }
+    ]
+  },
+  {
+    "name": "Digitale Inklusion und Fähigkeiten",
+    "data": [
+      {
+        "characteristic": "Offliner:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.09
+      },
+      {
+        "characteristic": "Minimal-Onliner:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.06
+      },
+      {
+        "characteristic": "Konservative Gelegenheitsnutzer:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.33
+      },
+      {
+        "characteristic": "Vorsichtige Pragmatiker:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.07
+      },
+      {
+        "characteristic": "Reflektierte Profis",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.22
+      },
+      {
+        "characteristic": "Progressive Anwender:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.15
+      },
+      {
+        "characteristic": "Technik Enthusiast:innen",
+        "source": "D21 Digital-Index 2021",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "percentage": 0.09
+      },
+      {
+        "characteristic": "Deutsch auf Level A1",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.04
+      },
+      {
+        "characteristic": "Deutsch auf Level A2",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.16
+      },
+      {
+        "characteristic": "Deutsch auf Level B1",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.4
+      },
+      {
+        "characteristic": "Deutsch auf Level B2",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.33
+      },
+      {
+        "characteristic": "Deutsch auf Level C1",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.05
+      },
+      {
+        "characteristic": "Deutsch auf Level C2",
+        "source": "Universität Hamburg/Spaß am Lesen Verlag",
+        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
+        "percentage": 0.02
+      }
+    ]
+  },
+  {
+    "name": "Technologiezugang",
+    "data": [
+      {
+        "characteristic": "Kein mobiler Internetzugriff",
+        "source": "D21 Digital-Index 2022/23",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2022-23/d21digitalindex_2022-2023.pdf",
+        "percentage": 0.16
+      },
+      {
+        "characteristic": "Kein Smartphone",
+        "source": "Bitkom",
+        "link": "https://www.deutschlandfunkkultur.de/qr-code-zwang-zur-digitalisierung-100.html#:~:text=Laut%20einer%20Erhebung%20des%20Branchenverbands,Teil%20des%20%C3%B6ffentlichen%20Lebens%20ausgeschlossen.",
+        "percentage": 0.1
+      },
+      {
+        "characteristic": "Kein Internetzugriff",
+        "source": "D21 Digital-Index 2022/23",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2022-23/d21digitalindex_2022-2023.pdf",
+        "percentage": 0.07
+      },
+      {
+        "characteristic": "Kein Internetzugang",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/_inhalt.html",
+        "percentage": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Behinderungen, Beeinträchtigungen und Erkrankungen",
+    "data": [
+      {
+        "characteristic": "Armutsbetroffen",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/05/PD23_190_63.html",
+        "percentage": 0.209
+      },
+      {
+        "characteristic": "Eingewandert",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/04/PD23_158_125.html",
+        "percentage": 0.184
+      }
+    ]
+  }
+]

@@ -46,41 +46,51 @@
       <h2 class="mb-24">
         Ergebnis für <b>{{ numberOfUsersCurrent }}</b> Nutzende
       </h2>
-      <table class="w-full text-left mt-10">
-        <thead>
-          <tr>
-            <th>Art der Behinderung</th>
-            <th>Anzahl</th>
-            <th>Quelle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
-            v-for="(value, key) in data"
-            :key="key"
-            class="border-t border-black odd:bg-gray-200"
-          >
-            <td>{{ key }}</td>
-            <td>{{ ((value * numberOfUsersCurrent) / 100000).toFixed(0) }}</td>
-            <td>
-              <a
-                class="text-blue-800 underline hover:text-blue-700"
-                href="https://2a5.de/e0P"
-                target="_blank"
-                :aria-label="'Quelle für ' + key"
-              >
-                Quelle
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <p>
+        Diese Ergebnisse beruhen auf Daten aus verschiedenen Quellen. Es kann
+        vorkommen, dass Personen unter ein oder mehrere Kriterien fallen, so
+        dass sich die Zahlen nicht auf {{ numberOfUsersCurrent }} addieren.
+      </p>
+      <div v-for="(group, groupIndex) in data" :key="groupIndex">
+        <h3>
+          {{ group.name }}
+        </h3>
+        <table class="w-full text-left mt-10 table-fixed">
+          <thead>
+            <tr>
+              <th class="w-4/6">Eigenschaft</th>
+              <th class="w-1/6">Anzahl</th>
+              <th class="w-1/6">Quelle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="(item, itemIndex) in group.data"
+              :key="itemIndex"
+              class="border-t border-black odd:bg-gray-200"
+            >
+              <td>{{ item.characteristic }}</td>
+              <td>{{ (item.percentage * numberOfUsersCurrent).toFixed(0) }}</td>
+              <td>
+                <a
+                  class="text-blue-800 underline hover:text-blue-700"
+                  :href="item.link"
+                  target="_blank"
+                  :aria-label="'Quelle für ' + item.characteristic"
+                >
+                  Quelle
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import data from "public/data/type_of_disabilities_per_100k_citizens_2021.json";
+import data from "public/data/data.json";
 
 export default {
   data() {
