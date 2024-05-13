@@ -76,7 +76,7 @@ jobs:
       #          VITE_PORT: 4183
 
       - name: Build for production
-        run: npm run build:static
+        run: npm run build:pages
 
       - name: Setup Pages
         id: pages
