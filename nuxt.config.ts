@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint"],
   css: ["~/assets/css/main.css"],
-  devtools: {
-    enabled: true,
-  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -13,6 +10,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
     head: {
       title: "Wie viele Menschen?",
       meta: [
