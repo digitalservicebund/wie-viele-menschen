@@ -2,7 +2,7 @@
   <div class="bg-blue-200 flex justify-center">
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
-      <p>
+      <p class="text-lg leading-8">
         Menschen mit einer Behinderung stellen oftmals andere Anforderungen an
         Dienstleistungen und Services. Geben Sie die (erwartete) Gesamtzahl der
         Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung
@@ -19,7 +19,6 @@
             name="number-of-users"
             class="ds-input"
             type="number"
-            placeholder="Anzahl der Menschen"
           />
           <button type="submit" class="ml-6 ds-button">Berechnen</button>
         </div>
@@ -44,7 +43,9 @@
   </div>
   <div v-if="numberOfUsersCurrent !== 0" class="flex justify-center">
     <div class="p-32 max-w-3xl">
-      <h2 class="mb-24">Ergebnis für {{ numberOfUsersCurrent }} Nutzende</h2>
+      <h2 class="mb-24">
+        Ergebnis für <b>{{ numberOfUsersCurrent }}</b> Nutzende
+      </h2>
       <table class="w-full text-left mt-10">
         <thead>
           <tr>
