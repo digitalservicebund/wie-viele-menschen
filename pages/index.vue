@@ -67,6 +67,7 @@
                 class="text-blue-800 underline hover:text-blue-700"
                 href="https://2a5.de/e0P"
                 target="_blank"
+                :aria-label="'Quelle für ' + key"
               >
                 Quelle
               </a>
