@@ -57,12 +57,12 @@
         <h3>
           {{ group.name }}
         </h3>
-        <table class="w-full text-left mt-10 table-fixed">
+        <table class="w-full text-left mt-10 table-fixed break-all">
           <thead>
             <tr>
-              <th class="w-4/6">Eigenschaft</th>
-              <th class="w-1/6">Anzahl</th>
-              <th class="w-1/6">Quelle</th>
+              <th class="w-6/12 sm:w-4/6">Eigenschaft</th>
+              <th class="w-4/12 sm:w-1/6">Anzahl</th>
+              <th class="w-3/12 sm:w-1/6">Quelle</th>
             </tr>
           </thead>
           <tbody>
