@@ -85,6 +85,7 @@
                   :href="item.link"
                   target="_blank"
                   :aria-label="'Quelle für ' + item.characteristic"
+                  rel="noreferrer noopener"
                 >
                   Quelle
                 </a>

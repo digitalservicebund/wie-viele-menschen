@@ -10,6 +10,7 @@
             href="https://digitalservice.bund.de/impressum"
             class="text-blue-800 underline hover:text-blue-700 p-12"
             target="_blank"
+            rel="noreferrer noopener"
           >
             Impressum
           </a>
@@ -17,6 +18,7 @@
             href="https://digitalservice.bund.de/datenschutz"
             class="text-blue-800 underline hover:text-blue-700 p-12"
             target="_blank"
+            rel="noreferrer noopener"
           >
             Datenschutzhinweis
           </a>
@@ -24,6 +26,7 @@
             href="https://github.com/digitalservicebund/a11y-tools"
             class="text-blue-800 underline hover:text-blue-700 p-12"
             target="_blank"
+            rel="noreferrer noopener"
           >
             Quellcode
           </a>
