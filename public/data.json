@@ -283,12 +283,6 @@
         "percentage": 0.1
       },
       {
-        "characteristic": "Kein Internetzugriff",
-        "source": "D21 Digital-Index 2022/23",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2022-23/d21digitalindex_2022-2023.pdf",
-        "percentage": 0.07
-      },
-      {
         "characteristic": "Kein Internetzugang",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/_inhalt.html",
