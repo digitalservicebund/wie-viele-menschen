@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply ds-body-01-reg;
+    @apply ds-body-01-reg text-lg;
   }
 
   h1 {
