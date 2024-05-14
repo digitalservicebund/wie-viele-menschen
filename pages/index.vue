@@ -3,10 +3,14 @@
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
       <p class="text-lg leading-8">
-        Um den Zugang zu einem Service für alle Menschen zu gewährleisten und
-        Barrieren abzubauen, ergeben sich oftmals neue Anforderungen. Geben Sie
-        die erwartete Gesamtzahl der Nutzenden ein und erfahren Sie, wie viele
-        Menschen mit bestimmten Eigenschaften Ihren Service nutzen.
+        Jeder Mensch ist einzigartig und stellt spezielle Anforderungen an die
+        Nutzung eines Services. Um diese Services allen Menschen zugänglich zu
+        machen, müssen Barrieren abgebaut werden.
+        <br /><br />
+        Hier können Sie erfahren, wie viele Menschen mit bestimmten
+        Eigenschaften Ihren Service nutzen. Daraus können Sie Maßnahmen
+        ableiten, um Ihren Dienst für alle Menschen zu öffnen. Geben Sie dazu
+        die erwartete Gesamtzahl der Nutzenden ein.
       </p>
       <form class="mt-40" @submit.prevent="setNumberOfUsers">
         <label for="number-of-users" class="font-bold">
@@ -38,7 +42,8 @@
     <div class="p-32 max-w-3xl">
       <p>
         Wenn Sie oben eine Zahl eingeben, erhalten Sie Informationen über die
-        geschätzte Anteil der Personen, die eine Behinderung haben könnten.
+        geschätzte Anteil der Personen, die eine bestimmte Eigenschaft
+        aufweisen.
       </p>
     </div>
   </div>
@@ -48,10 +53,10 @@
         Ergebnis für <b>{{ formatNumber(numberOfUsersCurrent) }}</b> Nutzende
       </h2>
       <p>
-        Diese Ergebnisse beruhen auf Daten aus verschiedenen Quellen. Es kann
-        vorkommen, dass Personen unter ein oder mehrere Kriterien fallen, so
-        dass sich die Zahlen nicht auf
-        {{ formatNumber(numberOfUsersCurrent) }} addieren.
+        Diese Zahlen beruhen auf Daten aus unterschiedlichen Quellen. Eine
+        Person kann dabei mehrere Eigenschaften aufweisen, sodass sich die
+        Anzahl nicht auf
+        {{ formatNumber(numberOfUsersCurrent) }} summiert.
       </p>
       <div v-for="(group, groupIndex) in data" :key="groupIndex">
         <h3>
@@ -107,7 +112,21 @@ export default {
       numberOfUsersInput: "",
       numberOfUsersCurrent: 0,
       data,
+      sortKey: "", // Current key used for sorting
+      sortOrders: {
+        columnName: 1, // Initial sort order for each column
+        // Add more columns as needed
+      },
     };
+  },
+  computed: {
+    sortedItems() {
+      return this.items.slice().sort((a, b) => {
+        return (
+          this.sortOrders[this.sortKey] * (a[this.sortKey] - b[this.sortKey])
+        );
+      });
+    },
   },
   methods: {
     setNumberOfUsers() {
@@ -115,6 +134,10 @@ export default {
     },
     formatNumber(value: number) {
       return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    },
+    sortBy(key: string) {
+      this.sortKey = key;
+      this.sortOrders[key] *= -1;
     },
   },
 };
