@@ -19,6 +19,7 @@
             name="number-of-users"
             class="ds-input"
             type="number"
+            max="90000000"
           />
           <button type="submit" class="ml-6 ds-button">Berechnen</button>
         </div>
