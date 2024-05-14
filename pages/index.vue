@@ -8,7 +8,7 @@
         Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung
         Ihren Service nutzen.
       </p>
-      <form class="mt-16" @submit.prevent="setNumberOfUsers">
+      <form class="mt-40" @submit.prevent="setNumberOfUsers">
         <label for="number-of-users" class="font-bold">
           Anzahl der Menschen, die den Service nutzen:
         </label>
