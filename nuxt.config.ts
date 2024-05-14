@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
     head: {
       title: "Wie viele Menschen?",
+      htmlAttrs: {
+        lang: "de",
+      },
       meta: [
         {
           name: "description",
