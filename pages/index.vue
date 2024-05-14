@@ -61,7 +61,7 @@
           <thead>
             <tr>
               <th class="w-6/12 sm:w-4/6">Eigenschaft</th>
-              <th class="w-4/12 sm:w-1/6">Anzahl</th>
+              <th class="w-4/12 sm:w-1/6 text-right">Anzahl</th>
               <th class="w-3/12 sm:w-1/6">Quelle</th>
             </tr>
           </thead>
@@ -72,7 +72,7 @@
               class="border-t border-black odd:bg-gray-200"
             >
               <td>{{ item.characteristic }}</td>
-              <td>
+              <td class="text-right">
                 {{
                   formatNumber(
                     (item.percentage * numberOfUsersCurrent).toFixed(0),
