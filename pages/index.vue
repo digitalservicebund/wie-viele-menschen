@@ -17,7 +17,7 @@
             id="number-of-users"
             v-model="numberOfUsersInput"
             name="number-of-users"
-            class="ds-input"
+            class="ds-input w-full sm:w-2/6"
             type="number"
             max="90000000"
           />
