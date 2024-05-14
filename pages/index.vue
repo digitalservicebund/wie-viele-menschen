@@ -3,10 +3,10 @@
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
       <p class="text-lg leading-8">
-        Menschen mit einer Behinderung stellen oftmals andere Anforderungen an
-        Dienstleistungen und Services. Geben Sie die (erwartete) Gesamtzahl der
-        Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung
-        Ihren Service nutzen.
+        Um den Zugang zu einem Service für alle Menschen zu gewährleisten und
+        Barrieren abzubauen, ergeben sich oftmals neue Anforderungen. Geben Sie
+        die erwartete Gesamtzahl der Nutzenden ein und erfahren Sie, wie viele
+        Menschen mit bestimmten Eigenschaften Ihren Service nutzen.
       </p>
       <form class="mt-40" @submit.prevent="setNumberOfUsers">
         <label for="number-of-users" class="font-bold">
