@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Geben Sie die (erwartete) Gesamtzahl der Nutzenden ein und erfahren Sie, wie viele Menschen mit einer Behinderung Ihren Service nutzen.",
+            "Hier können Sie erfahren, wie viele Menschen mit bestimmten Eigenschaften Ihren Service nutzen.",
         },
       ],
       link: [
