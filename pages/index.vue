@@ -62,7 +62,9 @@
         <h3>
           {{ group.name }}
         </h3>
-        <table class="w-full text-left mt-10 table-fixed break-all">
+        <table
+          class="w-full text-left mt-10 table-fixed break-words hyphens-auto"
+        >
           <thead>
             <tr>
               <th class="w-6/12 sm:w-4/6">Eigenschaft</th>
