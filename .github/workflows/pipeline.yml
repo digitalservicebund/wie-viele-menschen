@@ -59,6 +59,8 @@ jobs:
       - name: Run E2E tests
         id: e2e
         run: npm run test:e2e
+        env:
+          WAIT_ON_TIMEOUT: 10000
 
       - uses: actions/upload-artifact@v4
         if: ${{ failure() && steps.e2e.outcome == 'failure' }}
@@ -75,6 +77,7 @@ jobs:
           # Error: http://localhost:3002 is already used ...
           # See https://github.com/digitalservicebund/typescript-vite-application-template/actions/runs/3486985178/jobs/5834089375
           VITE_PORT: 3002
+          WAIT_ON_TIMEOUT: 10000
 
       - uses: actions/upload-artifact@v4
         if: ${{ failure() && steps.a11y.outcome == 'failure' }}
