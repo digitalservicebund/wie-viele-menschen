@@ -3,6 +3,7 @@
   "homepage": "https://digitalservicebund.github.io/wie-viele-menschen/",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "build:pages": "nuxt build --preset github_pages",
