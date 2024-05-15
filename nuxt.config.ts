@@ -43,6 +43,11 @@ export default defineNuxtConfig({
           content:
             "https://digitalservicebund.github.io/wie-viele-menschen/img/preview-social.gif",
         },
+        {
+          name: "og:image:alt",
+          content:
+            "Wie viele Menschen? Berechnen Sie, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Eigenschaften haben, um Maßnahmen abzuleiten, damit Ihr Dienst für alle Menschen funktioniert.",
+        },
         { name: "og:image:width", content: "2865" },
         { name: "og:image:height", content: "1500" },
       ],
