@@ -83,20 +83,23 @@
               >
                 <span class="flex items-center">
                   Eigenschaft
-                  <div
-                    class="arrow-up ml-8"
-                    :class="{
-                      active:
-                        sortKey == 'characteristic' && sortDirection == 'asc',
-                    }"
-                  ></div>
-                  <div
-                    class="arrow-down"
-                    :class="{
-                      active:
-                        sortKey == 'characteristic' && sortDirection == 'desc',
-                    }"
-                  ></div>
+                  <span class="flex flex-col items-center ml-8">
+                    <div
+                      class="arrow-up mb-2"
+                      :class="{
+                        active:
+                          sortKey == 'characteristic' && sortDirection == 'asc',
+                      }"
+                    ></div>
+                    <div
+                      class="arrow-down"
+                      :class="{
+                        active:
+                          sortKey == 'characteristic' &&
+                          sortDirection == 'desc',
+                      }"
+                    ></div>
+                  </span>
                 </span>
               </th>
               <th
@@ -113,21 +116,24 @@
                 @click="setSortKey('percentage')"
                 @keyup.enter="setSortKey('percentage')"
               >
-                <span class="flex items-center">
+                <span class="flex items-center justify-end">
                   Anzahl
-                  <div
-                    class="arrow-up ml-8"
-                    :class="{
-                      active: sortKey == 'percentage' && sortDirection == 'asc',
-                    }"
-                  ></div>
-                  <div
-                    class="arrow-down"
-                    :class="{
-                      active:
-                        sortKey == 'percentage' && sortDirection == 'desc',
-                    }"
-                  ></div>
+                  <span class="flex flex-col items-center ml-8">
+                    <div
+                      class="arrow-up mb-2"
+                      :class="{
+                        active:
+                          sortKey == 'percentage' && sortDirection == 'asc',
+                      }"
+                    ></div>
+                    <div
+                      class="arrow-down"
+                      :class="{
+                        active:
+                          sortKey == 'percentage' && sortDirection == 'desc',
+                      }"
+                    ></div>
+                  </span>
                 </span>
               </th>
               <th class="w-3/12 sm:w-1/6">Quelle</th>
