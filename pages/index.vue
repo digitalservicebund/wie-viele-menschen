@@ -84,21 +84,21 @@
                 <span class="flex items-center">
                   Eigenschaft
                   <span class="flex flex-col items-center ml-8">
-                    <div
+                    <span
                       class="arrow-up mb-2"
                       :class="{
                         active:
                           sortKey == 'characteristic' && sortDirection == 'asc',
                       }"
-                    ></div>
-                    <div
+                    ></span>
+                    <span
                       class="arrow-down"
                       :class="{
                         active:
                           sortKey == 'characteristic' &&
                           sortDirection == 'desc',
                       }"
-                    ></div>
+                    ></span>
                   </span>
                 </span>
               </th>
@@ -119,20 +119,20 @@
                 <span class="flex items-center justify-end">
                   Anzahl
                   <span class="flex flex-col items-center ml-8">
-                    <div
+                    <span
                       class="arrow-up mb-2"
                       :class="{
                         active:
                           sortKey == 'percentage' && sortDirection == 'asc',
                       }"
-                    ></div>
-                    <div
+                    ></span>
+                    <span
                       class="arrow-down"
                       :class="{
                         active:
                           sortKey == 'percentage' && sortDirection == 'desc',
                       }"
-                    ></div>
+                    ></span>
                   </span>
                 </span>
               </th>
