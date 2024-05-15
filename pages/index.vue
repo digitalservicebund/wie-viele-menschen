@@ -67,14 +67,75 @@
         >
           <thead>
             <tr>
-              <th class="w-6/12 sm:w-4/6">Eigenschaft</th>
-              <th class="w-4/12 sm:w-1/6 text-right">Anzahl</th>
+              <th
+                :aria-sort="
+                  sortKey == 'characteristic'
+                    ? sortDirection == 'asc'
+                      ? 'ascending'
+                      : 'descending'
+                    : 'none'
+                "
+                aria-colindex="1"
+                class="w-6/12 sm:w-4/6 cursor-pointer select-none"
+                tabindex="0"
+                @click="setSortKey('characteristic')"
+                @keyup.enter="setSortKey('characteristic')"
+              >
+                <span class="flex items-center">
+                  Eigenschaft
+                  <div
+                    class="arrow-up ml-8"
+                    :class="{
+                      active:
+                        sortKey == 'characteristic' && sortDirection == 'asc',
+                    }"
+                  ></div>
+                  <div
+                    class="arrow-down"
+                    :class="{
+                      active:
+                        sortKey == 'characteristic' && sortDirection == 'desc',
+                    }"
+                  ></div>
+                </span>
+              </th>
+              <th
+                :aria-sort="
+                  sortKey == 'percentage'
+                    ? sortDirection == 'asc'
+                      ? 'ascending'
+                      : 'descending'
+                    : 'none'
+                "
+                aria-colindex="2"
+                class="w-4/12 sm:w-1/6 cursor-pointer select-none"
+                tabindex="0"
+                @click="setSortKey('percentage')"
+                @keyup.enter="setSortKey('percentage')"
+              >
+                <span class="flex items-center">
+                  Anzahl
+                  <div
+                    class="arrow-up ml-8"
+                    :class="{
+                      active: sortKey == 'percentage' && sortDirection == 'asc',
+                    }"
+                  ></div>
+                  <div
+                    class="arrow-down"
+                    :class="{
+                      active:
+                        sortKey == 'percentage' && sortDirection == 'desc',
+                    }"
+                  ></div>
+                </span>
+              </th>
               <th class="w-3/12 sm:w-1/6">Quelle</th>
             </tr>
           </thead>
           <tbody>
             <tr
-              v-for="(item, itemIndex) in group.data"
+              v-for="(item, itemIndex) in sortItems(group.data)"
               :key="itemIndex"
               class="border-t border-black odd:bg-gray-200"
             >
@@ -108,20 +169,44 @@
 <script lang="ts">
 import data from "public/data.json";
 
+interface Item {
+  characteristic: string;
+  source: string;
+  link: string;
+  percentage: number;
+}
+
 export default {
   data() {
     return {
       numberOfUsersInput: "",
       numberOfUsersCurrent: 0,
       data,
+      sortKey: "percentage",
+      sortDirection: "desc",
     };
   },
   methods: {
     setNumberOfUsers() {
       this.numberOfUsersCurrent = this.numberOfUsersInput;
     },
+    setSortKey(key: string) {
+      this.sortKey = key;
+      this.sortDirection = this.sortDirection == "desc" ? "asc" : "desc";
+    },
     formatNumber(value: number) {
       return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    },
+    sortItems(items: Item[]) {
+      return items.slice().sort((first, second) => {
+        const itemA = this.sortDirection == "asc" ? first : second;
+        const itemB = this.sortDirection == "asc" ? second : first;
+        return itemA[this.sortKey] < itemB[this.sortKey]
+          ? -1
+          : itemA[this.sortKey] > itemB[this.sortKey]
+            ? 1
+            : 0;
+      });
     },
   },
 };
