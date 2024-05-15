@@ -14,8 +14,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NUXT_APP_BASE_URL: "/wie-viele-menschen/"
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -88,6 +86,8 @@ jobs:
 
       - name: Build for production
         run: npm run build:pages
+        env:
+          NUXT_APP_BASE_URL: "/wie-viele-menschen/"
 
       - name: Setup Pages
         id: pages
