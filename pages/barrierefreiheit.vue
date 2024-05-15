@@ -48,7 +48,7 @@
           class="text-blue-800 underline hover:text-blue-700"
           target="_blank"
           rel="noreferrer noopener"
-          >digitalservicebund.github.io/wie-viele-menschen/
+          >digitalservicebund.github.io/wie-viele-menschen
         </a>
         aufgefallen? Dann können Sie sich gerne bei uns melden:
         <br /><br />
@@ -58,12 +58,11 @@
         Deutschland<br />
         E-Mail:
         <a
-          href="mailto:hallo@digitalservice.bund.de"
+          href="mailto:accessibility@digitalservice.bund.de"
           class="text-blue-800 underline hover:text-blue-700"
         >
-          hallo@digitalservice.bund.de </a
-        ><br />
-        Telefon: +49 (0)30 23591500
+          accessibility@digitalservice.bund.de</a
+        >
       </p>
       <h2 class="mt-32">Schlichtungsverfahren</h2>
       <p>
