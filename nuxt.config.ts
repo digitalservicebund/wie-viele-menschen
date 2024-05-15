@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: process.env.DEV_TOOLS !== "false" },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint"],
   css: ["~/assets/css/main.css"],
   postcss: {

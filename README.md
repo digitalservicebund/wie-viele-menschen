@@ -9,6 +9,14 @@ A small website that displays how many of your users in Germany statistically ha
 We aim to use the current active [LTS version of nodejs](https://nodejs.dev/en/about/releases/), which is V22 at the time of writing.
 There is a `.node-version` file to simplify setup using [nodenv](https://github.com/nodenv/nodenv).
 
+### Testing
+
+For E2E and a11y testing with [Playwright](https://playwright.dev/docs/intro) you will need to install the supported browsers:
+
+```bash
+npx playwright install
+```
+
 ### Git Hooks
 
 For the provided Git hooks you will need to install [lefthook](https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md)
@@ -27,11 +35,39 @@ npm install
 
 ## Development
 
+### Run locally
+
 Start the development server on `http://localhost:3000`:
 
 ```bash
 npm run dev
 ```
+
+### Testing
+
+The applications have
+
+- end-to-end tests (using [Playwright](https://playwright.dev/docs/intro))
+- accessibility tests (using [Playwright](https://playwright.dev/docs/intro) and [Axe](https://www.deque.com/axe/))
+
+**Test commands**
+
+- Run all tests: `npm run tests`
+- Run E2E tests: `npm run test:e2e`
+- Run A11y tests: `npm run test:a11y`
+
+### Code quality checks (linting & formatting)
+
+The project uses [ESLint](https://eslint.org/docs/latest/) for linting and [Prettier](https://prettier.io/docs/en/). for formatting.
+
+**Commands**
+
+- Check formatting: `npm run format:check`
+- Autofix formatting issues: `npm run format:fix`
+- Check lint: `npm run lint:check`
+- Autofix lint issues: `npm run lint:fix`
+- Check style (formatting & linting): `npm run style:check`
+- Autofix style issues (formatting & linting): `npm run style:fix`
 
 ## Production
 
