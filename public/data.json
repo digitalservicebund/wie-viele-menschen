@@ -39,12 +39,6 @@
         "percentage": 0.11934
       },
       {
-        "characteristic": "Schwerbehinderung",
-        "source": "Statistisches Bundesamt",
-        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Tabellen/schwerbehinderte-alter-geschlecht-quote.html",
-        "percentage": 0.094
-      },
-      {
         "characteristic": "Lese- und Schreibschwäche",
         "source": "Lehrinstitute für Orthographie und Sprachkompetenz (LOS)",
         "link": "https://www.los.de/ratgeber-fuer-lrs/lrs/lrs-bei-erwachsenen",
