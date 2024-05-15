@@ -5,7 +5,7 @@
     </main>
     <footer>
       <div class="bg-blue-200 flex justify-center">
-        <div class="p-20 w-full max-w-3xl flex justify-end">
+        <div class="p-20 w-full max-w-3xl flex flex-wrap sm:justify-end">
           <a
             href="https://digitalservice.bund.de/impressum"
             class="text-blue-800 underline hover:text-blue-700 p-12"
