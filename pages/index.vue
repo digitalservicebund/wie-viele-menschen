@@ -114,21 +114,7 @@ export default {
       numberOfUsersInput: "",
       numberOfUsersCurrent: 0,
       data,
-      sortKey: "", // Current key used for sorting
-      sortOrders: {
-        columnName: 1, // Initial sort order for each column
-        // Add more columns as needed
-      },
     };
-  },
-  computed: {
-    sortedItems() {
-      return this.items.slice().sort((a, b) => {
-        return (
-          this.sortOrders[this.sortKey] * (a[this.sortKey] - b[this.sortKey])
-        );
-      });
-    },
   },
   methods: {
     setNumberOfUsers() {
@@ -136,10 +122,6 @@ export default {
     },
     formatNumber(value: number) {
       return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-    },
-    sortBy(key: string) {
-      this.sortKey = key;
-      this.sortOrders[key] *= -1;
     },
   },
 };
