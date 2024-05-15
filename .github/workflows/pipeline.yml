@@ -180,6 +180,9 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
+    concurrency:
+      group: "deploy-${{ github.repository }}"
+      cancel-in-progress: false
     needs:
       - build
       - audit-licenses
