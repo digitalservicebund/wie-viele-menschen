@@ -55,7 +55,7 @@
     class="flex justify-center"
   >
     <div class="p-32 max-w-3xl">
-      <h2 class="mb-24">
+      <h2>
         Ergebnis für <b>{{ formatNumber(numberOfUsersCurrent) }}</b> Nutzende
       </h2>
       <p>

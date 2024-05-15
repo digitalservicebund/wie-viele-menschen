@@ -22,6 +22,12 @@
           >
             Datenschutzhinweis
           </a>
+          <NuxtLink
+            to="/barrierefreiheit"
+            class="text-blue-800 underline hover:text-blue-700 p-12"
+          >
+            Barrierefreiheit
+          </NuxtLink>
           <a
             href="https://github.com/digitalservicebund/wie-viele-menschen"
             class="text-blue-800 underline hover:text-blue-700 p-12"
@@ -43,4 +49,3 @@
     </footer>
   </div>
 </template>
-<script setup lang="ts"></script>
