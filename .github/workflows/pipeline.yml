@@ -8,8 +8,9 @@ on:
   # Allow to run this workflow manually
   workflow_dispatch:
 
-env:
-  IMAGE_NAME: ${{ github.repository }}
+concurrency:
+  group: "build-and-deploy-${{ github.repository }}"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -180,9 +181,6 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
-    concurrency:
-      group: "deploy-${{ github.repository }}"
-      cancel-in-progress: false
     needs:
       - build
       - audit-licenses
