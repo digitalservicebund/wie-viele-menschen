@@ -30,6 +30,14 @@
           >
             Quellcode
           </a>
+          <a
+            href="https://design.education.gov.uk/tools/how-many-users/"
+            class="text-blue-800 underline hover:text-blue-700 p-12"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Inspiration
+          </a>
         </div>
       </div>
     </footer>
