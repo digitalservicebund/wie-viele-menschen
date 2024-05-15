@@ -50,12 +50,12 @@ npm run preview
 ## Contributing
 
 🇬🇧
-Everyone is welcome to contribute the development of the _a11y-tools_. You can contribute by opening pull request,
+Everyone is welcome to contribute the development of the _wie-viele-menschen_. You can contribute by opening pull request,
 providing documentation or answering questions or giving feedback. Please always follow the guidelines and our
 [Code of Conduct](CODE_OF_CONDUCT.md).
 
 🇩🇪  
-Jede:r ist herzlich eingeladen, die Entwicklung der _a11y-tools_ mitzugestalten. Du kannst einen Beitrag leisten,
+Jede:r ist herzlich eingeladen, die Entwicklung der _wie-viele-menschen_ mitzugestalten. Du kannst einen Beitrag leisten,
 indem du Pull-Requests eröffnest, die Dokumentation erweiterst, Fragen beantwortest oder Feedback gibst.
 Bitte befolge immer die Richtlinien und unseren [Verhaltenskodex](CODE_OF_CONDUCT_DE.md).
 

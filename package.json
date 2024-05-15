@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "wie-viele-menschen",
+  "homepage": "https://digitalservicebund.github.io/wie-viele-menschen/",
   "private": true,
   "type": "module",
   "scripts": {

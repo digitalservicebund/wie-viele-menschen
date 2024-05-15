@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NUXT_APP_BASE_URL: "/a11y-tools/"
+      NUXT_APP_BASE_URL: "/wie-viele-menschen/"
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
