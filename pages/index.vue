@@ -38,7 +38,10 @@
       </p>
     </div>
   </div>
-  <div v-if="numberOfUsersCurrent === 0" class="flex justify-center">
+  <div
+    v-if="numberOfUsersCurrent === 0 || numberOfUsersCurrent === ''"
+    class="flex justify-center"
+  >
     <div class="p-32 max-w-3xl">
       <p>
         Wenn Sie oben eine Zahl eingeben, erhalten Sie Informationen über die
@@ -47,7 +50,10 @@
       </p>
     </div>
   </div>
-  <div v-if="numberOfUsersCurrent !== 0" class="flex justify-center">
+  <div
+    v-if="numberOfUsersCurrent !== 0 && numberOfUsersCurrent !== ''"
+    class="flex justify-center"
+  >
     <div class="p-32 max-w-3xl">
       <h2 class="mb-24">
         Ergebnis für <b>{{ formatNumber(numberOfUsersCurrent) }}</b> Nutzende
