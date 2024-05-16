@@ -27,12 +27,6 @@
         "percentage": 0.25
       },
       {
-        "characteristic": "Nicht-Muttersprachler:innen",
-        "source": "Statistisches Bundesamt",
-        "link": "https://www.businessinsider.de/politik/sprache-15-prozent-aller-menschen-in-deutschland-sprechen-zu-hause-kein-oder-kaum-deutsch/#:~:text=15%20Prozent%20aller%20Menschen%20in%20Deutschland%20sprechen%20zuhause%20kein%20oder%20kaum%20Deutsch&text=15%20Prozent%20der%20Menschen%2C%20die,zum%20%E2%80%9ETag%20der%20Muttersprache%E2%80%9C.",
-        "percentage": 0.15
-      },
-      {
         "characteristic": "Hörschädigung und Schwerhörigkeit",
         "source": "EuroTrak Germany 2018 und WHO",
         "link": "https://www.geers.de/hoeren-ohrengesundheit/ohrenkrankheiten/hoerverlust-und-schwerhoerigkeit/#:~:text=10%20Millionen%20Menschen%20in%20Deutschland,leiden%20an%20einer%20relevanten%20Schwerh%C3%B6rigkeit.",
@@ -43,12 +37,6 @@
         "source": "Lehrinstitute für Orthographie und Sprachkompetenz (LOS)",
         "link": "https://www.los.de/ratgeber-fuer-lrs/lrs/lrs-bei-erwachsenen",
         "percentage": 0.089499
-      },
-      {
-        "characteristic": "Begrenzte Deutschfähigkeiten",
-        "source": "Bundesministerium für Bildung und Forschung",
-        "link": "https://www.xn--mein-schlssel-zur-welt-0lc.de/de/helfen/zahlen-und-fakten/zahlen-und-fakten.html#:~:text=6%2C2%20Millionen%20Menschen%20oder,selbst%20bei%20gebr%C3%A4uchlichen%20W%C3%B6rtern%20auf.",
-        "percentage": 0.073986
       },
       {
         "characteristic": "Mobilitätseinschränkung",
@@ -115,12 +103,6 @@
         "source": "Autismus verstehen e.V.",
         "link": "https://autismus-verstehen.de/autismus/haeufigkeit/#:~:text=Wissenschaftliche%20Untersuchungen%20in%20Deutschland%20sind,durchschnittlichen%20Angaben%20teilweise%20deutlich%20h%C3%B6her.",
         "percentage": 0.01
-      },
-      {
-        "characteristic": "Blindheit und Sehbehinderung",
-        "source": "Deutscher Blinden- und Sehbehindertenverband",
-        "link": "https://www.dbsv.org/zahlen-fakten.html",
-        "percentage": 0.006667
       },
       {
         "characteristic": "Rot-Grün-Farbenblindheit (Frauen)",
@@ -258,6 +240,18 @@
         "source": "Universität Hamburg/Spaß am Lesen Verlag",
         "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
         "percentage": 0.02
+      },
+      {
+        "characteristic": "Begrenzte Deutschfähigkeiten",
+        "source": "Bundesministerium für Bildung und Forschung",
+        "link": "https://www.xn--mein-schlssel-zur-welt-0lc.de/de/helfen/zahlen-und-fakten/zahlen-und-fakten.html#:~:text=6%2C2%20Millionen%20Menschen%20oder,selbst%20bei%20gebr%C3%A4uchlichen%20W%C3%B6rtern%20auf.",
+        "percentage": 0.073986
+      },
+      {
+        "characteristic": "Nicht-Muttersprachler:innen",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.businessinsider.de/politik/sprache-15-prozent-aller-menschen-in-deutschland-sprechen-zu-hause-kein-oder-kaum-deutsch/#:~:text=15%20Prozent%20aller%20Menschen%20in%20Deutschland%20sprechen%20zuhause%20kein%20oder%20kaum%20Deutsch&text=15%20Prozent%20der%20Menschen%2C%20die,zum%20%E2%80%9ETag%20der%20Muttersprache%E2%80%9C.",
+        "percentage": 0.15
       }
     ]
   },
