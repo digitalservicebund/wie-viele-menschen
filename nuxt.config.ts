@@ -65,8 +65,6 @@ export default defineNuxtConfig({
           defer: true,
           "data-domain": "digitalservicebund.github.io/wie-viele-menschen",
           src: "https://plausible.io/js/script.js",
-          "data-api":
-            "https://plausible.digitalservicebund.github.io/wie-viele-menschen/api/event",
         },
       ],
     },
