@@ -7,10 +7,10 @@
         Nutzung eines Services. Um diese Services allen Menschen zugänglich zu
         machen, müssen Barrieren abgebaut werden.
         <br /><br />
-        Hier können Sie erfahren, wie viele Menschen mit bestimmten
-        Eigenschaften Ihren Service nutzen. Daraus können Sie Maßnahmen
-        ableiten, um Ihren Dienst für alle Menschen zu öffnen. Geben Sie dazu
-        die erwartete Gesamtzahl der Nutzenden ein.
+        Hier können Sie erfahren, wie viele Menschen in Deutschland mit
+        bestimmten Eigenschaften Ihren Service nutzen. Daraus können Sie
+        Maßnahmen ableiten, um Ihren Dienst für alle Menschen zu öffnen. Geben
+        Sie dazu die erwartete Gesamtzahl der Nutzenden ein.
       </p>
       <form class="mt-40" @submit.prevent="setNumberOfUsers">
         <label for="number-of-users" class="font-bold">
