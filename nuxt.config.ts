@@ -60,6 +60,14 @@ export default defineNuxtConfig({
           sizes: "32x32",
         },
       ],
+      script: [
+        {
+          type: "text/javascript",
+          src: "https://plausible.io/js/script.js",
+          defer: true,
+          "data-domain": "digitalservicebund.github.io/wie-viele-menschen",
+        },
+      ],
     },
   },
 });
