@@ -24,6 +24,7 @@
             class="ds-input w-full sm:w-2/6"
             type="number"
             max="90000000"
+            min="2"
           />
           <button type="submit" class="ml-6 ds-button">Berechnen</button>
         </div>
