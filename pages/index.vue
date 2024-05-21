@@ -45,8 +45,8 @@
   >
     <div class="p-32 max-w-3xl">
       <p>
-        Wenn Sie oben eine Zahl eingeben, erhalten Sie Informationen über die
-        geschätzte Anteil der Personen, die eine bestimmte Eigenschaft
+        Wenn Sie oben eine Zahl eingeben, erhalten Sie Informationen über den
+        geschätzten Anteil der Personen, die eine bestimmte Eigenschaft
         aufweisen.
       </p>
     </div>
