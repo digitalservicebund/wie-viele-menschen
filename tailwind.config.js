@@ -2,11 +2,7 @@
 export default {
   content: [],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: "BundesSansWeb",
-      },
-    },
+    extend: {},
   },
   presets: [require("@digitalservice4germany/style-dictionary/tailwind")],
   plugins: [require("@digitalservice4germany/angie")],

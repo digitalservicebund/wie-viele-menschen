@@ -7,8 +7,6 @@
 @layer base {
   body {
     @apply ds-body-01-reg text-lg;
-    font-family: "BundesSansWeb", "Calibri", "Verdana", "Arial", "Helvetica",
-      sans-serif;
   }
 
   h1 {
