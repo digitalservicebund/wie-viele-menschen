@@ -22,7 +22,7 @@
           target="_blank"
           rel="noreferrer noopener"
         >
-          {{ baseURL }}
+          wie viele Menschen
         </a>
         so weit wie möglich barrierefrei zu gestalten. Rechtsgrundlage sind das
         Behindertengleichstellungsgesetz (BGG), die
@@ -48,7 +48,7 @@
           class="text-blue-800 underline hover:text-blue-700"
           target="_blank"
           rel="noreferrer noopener"
-          >{{ baseURL }}
+          >wie viele Menschen
         </a>
         aufgefallen? Dann können Sie sich gerne bei uns melden:
         <br /><br />
