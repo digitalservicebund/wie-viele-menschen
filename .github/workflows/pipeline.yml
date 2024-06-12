@@ -50,7 +50,7 @@ jobs:
 
       # TODO: check LD CRLF
       #- name: Lint
-       # run: npm run lint:check
+      # run: npm run lint:check
 
       - name: Install E2E & A11y test dependencies
         run: |
