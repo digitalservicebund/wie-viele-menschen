@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL ?? "/", // Stellt die Basis-URL für die gesamte Anwendung ein
+    baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
     head: {
       title: "Wie viele Menschen?",
       htmlAttrs: {
@@ -18,7 +18,8 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "Hier können Sie erfahren, wie viele Menschen mit bestimmten Eigenschaften Ihren Service nutzen.",
+          content:
+            "Hier können Sie erfahren, wie viele Menschen mit bestimmten Eigenschaften Ihren Service nutzen.",
         },
         { name: "og:title", content: "Wie viele Menschen?" },
         { name: "og:type", content: "website" },
@@ -28,15 +29,18 @@ export default defineNuxtConfig({
         },
         {
           name: "og:description",
-          content: "Berechnen Sie, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Eigenschaften haben, um Maßnahmen abzuleiten, damit Ihr Dienst für alle Menschen funktioniert.",
+          content:
+            "Berechnen Sie, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Eigenschaften haben, um Maßnahmen abzuleiten, damit Ihr Dienst für alle Menschen funktioniert.",
         },
         {
           name: "og:image",
-          content: (process.env.NUXT_APP_BASE_URL ?? "") + "/img/preview-social.gif",
+          content:
+            (process.env.NUXT_APP_BASE_URL ?? "") + "/img/preview-social.gif",
         },
         {
           name: "og:image:alt",
-          content: "Wie viele Menschen? Berechnen Sie, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Eigenschaften haben, um Maßnahmen abzuleiten, damit Ihr Dienst für alle Menschen funktioniert.",
+          content:
+            "Wie viele Menschen? Berechnen Sie, wie viele Menschen eine Behinderung, Beeinträchtigung oder andere Eigenschaften haben, um Maßnahmen abzuleiten, damit Ihr Dienst für alle Menschen funktioniert.",
         },
         { name: "og:image:width", content: "2865" },
         { name: "og:image:height", content: "1500" },

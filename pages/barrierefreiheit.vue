@@ -17,10 +17,10 @@
       <p>
         Die DigitalService GmbH des Bundes ist bemüht, seine Webseite
         <a
-            :href="baseURL"
-            class="text-blue-800 underline hover:text-blue-700"
-            target="_blank"
-            rel="noreferrer noopener"
+          :href="baseURL"
+          class="text-blue-800 underline hover:text-blue-700"
+          target="_blank"
+          rel="noreferrer noopener"
         >
           {{ baseURL }}
         </a>
@@ -44,11 +44,11 @@
       <p>
         Sind Ihnen weitere Mängel beim barrierefreien Zugang zu Inhalten von
         <a
-            :href="baseURL"
-            class="text-blue-800 underline hover:text-blue-700"
-            target="_blank"
-            rel="noreferrer noopener"
-        >{{ baseURL }}
+          :href="baseURL"
+          class="text-blue-800 underline hover:text-blue-700"
+          target="_blank"
+          rel="noreferrer noopener"
+          >{{ baseURL }}
         </a>
         aufgefallen? Dann können Sie sich gerne bei uns melden:
         <br /><br />
@@ -58,8 +58,8 @@
         Deutschland<br />
         E-Mail:
         <a
-            href="mailto:accessibility@digitalservice.bund.de"
-            class="text-blue-800 underline hover:text-blue-700"
+          href="mailto:accessibility@digitalservice.bund.de"
+          class="text-blue-800 underline hover:text-blue-700"
         >
           accessibility@digitalservice.bund.de</a
         >
@@ -97,17 +97,17 @@
         Fax: 030 18 527-2901<br />
         E-Mail:
         <a
-            href="mailto:info@schlichtungsstelle-bgg.de"
-            class="text-blue-800 underline hover:text-blue-700"
+          href="mailto:info@schlichtungsstelle-bgg.de"
+          class="text-blue-800 underline hover:text-blue-700"
         >
           info@schlichtungsstelle-bgg.de </a
         ><br />
         Internet:
         <a
-            href="https://www.schlichtungsstelle-bgg.de/"
-            class="text-blue-800 underline hover:text-blue-700"
-            target="_blank"
-            rel="noreferrer noopener"
+          href="https://www.schlichtungsstelle-bgg.de/"
+          class="text-blue-800 underline hover:text-blue-700"
+          target="_blank"
+          rel="noreferrer noopener"
         >
           www.schlichtungsstelle-bgg.de </a
         ><br />
@@ -120,8 +120,8 @@
 export default {
   data() {
     return {
-      baseURL: process.env.NUXT_APP_BASE_URL ?? "/"
+      baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
     };
-  }
+  },
 };
 </script>
