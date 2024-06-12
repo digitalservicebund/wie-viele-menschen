@@ -48,9 +48,8 @@ jobs:
       - name: Check format
         run: npm run format:check
 
-      # TODO: check LD CRLF
-      #- name: Lint
-      # run: npm run lint:check
+      - name: Lint
+        run: npm run lint:check
 
       - name: Install E2E & A11y test dependencies
         run: |
