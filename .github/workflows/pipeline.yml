@@ -190,6 +190,8 @@ jobs:
 
       - name: Build for production
         run: npm run generate
+        env:
+          NUXT_APP_BASE_URL: "/wie-viele-menschen/"
 
       - name: 📂 Sync files
         uses: sand4rt/ftp-deployer@518beaad91d1b18fd55a69321de7ed89080d2ae3 # v1.8
