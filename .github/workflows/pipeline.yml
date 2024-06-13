@@ -242,7 +242,7 @@ jobs:
         with:
           server: 217.160.187.5
           port: 22
-          protocol: sftp
+          protocol: ftps-legacy
           username: wie-viele-menschen-bot
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./.output/public/
