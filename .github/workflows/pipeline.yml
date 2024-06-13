@@ -171,30 +171,30 @@ jobs:
         with:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
-    needs:
-      - build
-      - audit-licenses
-      - vulnerability-scan
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   permissions:
+  #     contents: read
+  #     pages: write
+  #     id-token: write
+  #   runs-on: ubuntu-latest
+  #   if: ${{ github.ref == 'refs/heads/main' }}
+  #   needs:
+  #     - build
+  #     - audit-licenses
+  #     - vulnerability-scan
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4
 
-      - name: Send status to Slack
-        uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
-        if: ${{ failure() }}
-        with:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  #     - name: Send status to Slack
+  #       uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
+  #       if: ${{ failure() }}
+  #       with:
+  #         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
   deploy-to-ionos:
     runs-on: ubuntu-latest
@@ -230,12 +230,19 @@ jobs:
       - name: Build for production
         run: npm run generate
 
+      # - name: Upload from .output/public via FTP
+      #   uses: airvzxf/ftp-deployment-action@latest
+      #   with:
+      #     server: 217.160.187.5
+      #     user: wie-viele-menschen-bot
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     local_dir: "./.output/public/"
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@8e83cea8672e3fbcbb9fdafff34debf6ae4c5f65 # v4.3.5
         with:
           server: 217.160.187.5
           port: 22
-          protocol: ftps
+          protocol: sftp
           username: wie-viele-menschen-bot
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./.output/public/
