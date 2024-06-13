@@ -23,7 +23,7 @@
             Datenschutzhinweis
           </a>
           <NuxtLink
-            to="https://digitalcheck.bund.de/wie-viele-menschen/barrierefreiheit"
+            to="https://digitalservice.bund.de/wie-viele-menschen/barrierefreiheit"
             class="text-blue-800 underline hover:text-blue-700 p-12"
           >
             Barrierefreiheit

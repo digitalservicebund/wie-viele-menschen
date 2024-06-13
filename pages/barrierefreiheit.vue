@@ -2,7 +2,7 @@
   <div class="bg-blue-200 flex justify-center">
     <div class="p-32 max-w-3xl">
       <NuxtLink
-        to="https://digitalcheck.bund.de/wie-viele-menschen"
+        to="https://digitalservice.bund.de/wie-viele-menschen"
         class="text-blue-800 underline hover:text-blue-700 p-12"
       >
         &#8592; Zurück zur Startseite
@@ -20,7 +20,7 @@
       <p>
         Die DigitalService GmbH des Bundes ist bemüht, seine Webseite
         <NuxtLink
-          to="https://digitalcheck.bund.de/wie-viele-menschen"
+          to="https://digitalservice.bund.de/wie-viele-menschen"
           class="text-blue-800 underline hover:text-blue-700"
         >
           wie viele Menschen
