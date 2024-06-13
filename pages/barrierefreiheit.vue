@@ -1,7 +1,10 @@
 <template>
   <div class="bg-blue-200 flex justify-center">
     <div class="p-32 max-w-3xl">
-      <NuxtLink to="https://digitalcheck.bund.de/wie-viele-menschen" class="text-blue-800 underline hover:text-blue-700 p-12">
+      <NuxtLink
+        to="https://digitalcheck.bund.de/wie-viele-menschen"
+        class="text-blue-800 underline hover:text-blue-700 p-12"
+      >
         &#8592; Zurück zur Startseite
       </NuxtLink>
       <h1 class="mb-24">Erklärung zur Barrierefreiheit</h1>
@@ -16,7 +19,10 @@
     <div class="p-32 max-w-3xl">
       <p>
         Die DigitalService GmbH des Bundes ist bemüht, seine Webseite
-        <NuxtLink to="https://digitalcheck.bund.de/wie-viele-menschen" class="text-blue-800 underline hover:text-blue-700">
+        <NuxtLink
+          to="https://digitalcheck.bund.de/wie-viele-menschen"
+          class="text-blue-800 underline hover:text-blue-700"
+        >
           wie viele Menschen
         </NuxtLink>
         so weit wie möglich barrierefrei zu gestalten. Rechtsgrundlage sind das
