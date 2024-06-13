@@ -16,14 +16,9 @@
     <div class="p-32 max-w-3xl">
       <p>
         Die DigitalService GmbH des Bundes ist bemüht, seine Webseite
-        <a
-          href="/"
-          class="text-blue-800 underline hover:text-blue-700"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <NuxtLink to="/" class="text-blue-800 underline hover:text-blue-700">
           wie viele Menschen
-        </a>
+        </NuxtLink>
         so weit wie möglich barrierefrei zu gestalten. Rechtsgrundlage sind das
         Behindertengleichstellungsgesetz (BGG), die
         Barrierefreie-Informationstechnik-Verordnung (BITV 2.0) und die
@@ -43,13 +38,9 @@
       <h2 class="mt-32">Barriere melden! Hinweise zur Barrierefreiheit</h2>
       <p>
         Sind Ihnen weitere Mängel beim barrierefreien Zugang zu Inhalten von
-        <a
-          :href="baseURL"
-          class="text-blue-800 underline hover:text-blue-700"
-          target="_blank"
-          rel="noreferrer noopener"
-          >wie viele Menschen
-        </a>
+        <NuxtLink to="/" class="text-blue-800 underline hover:text-blue-700">
+          wie viele Menschen
+        </NuxtLink>
         aufgefallen? Dann können Sie sich gerne bei uns melden:
         <br /><br />
         DigitalService GmbH des Bundes<br />
