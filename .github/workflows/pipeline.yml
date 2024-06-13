@@ -230,25 +230,16 @@ jobs:
       - name: Build for production
         run: npm run generate
 
-      # - name: Upload from .output/public via FTP
-      #   uses: airvzxf/ftp-deployment-action@latest
-      #   with:
-      #     server: 217.160.187.5
-      #     user: wie-viele-menschen-bot
-      #     password: ${{ secrets.FTP_PASSWORD }}
-      #     local_dir: "./.output/public/"
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@8e83cea8672e3fbcbb9fdafff34debf6ae4c5f65 # v4.3.5
+        uses: sand4rt/ftp-deployer@518beaad91d1b18fd55a69321de7ed89080d2ae3 # v1.8
         with:
-          server: 217.160.187.5
+          sftp: true
+          host: 217.160.187.5
           port: 22
-          protocol: ftps-legacy
           username: wie-viele-menschen-bot
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./.output/public/
-          dry-run: true
-          dangerous-clean-slate: true
-          timeout: 60000
+          local_folder: ./.output/public/
+          cleanup: false
 
       # - name: Send status to Slack
       #   uses: digitalservicebund/notify-on-failure-gha@814d0c4b2ad6a3443e89c991f8657b10126510bf # v1.5.0
