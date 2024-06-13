@@ -235,11 +235,12 @@ jobs:
         with:
           server: 217.160.187.5
           port: 22
-          protocol: FTPS
+          protocol: ftps
           username: wie-viele-menschen-bot
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: test/
+          dry-run: true
           dangerous-clean-slate: true
 
       - name: Send status to Slack
