@@ -17,7 +17,7 @@
       <p>
         Die DigitalService GmbH des Bundes ist bemüht, seine Webseite
         <a
-          :href="baseURL"
+          href="/"
           class="text-blue-800 underline hover:text-blue-700"
           target="_blank"
           rel="noreferrer noopener"
@@ -115,13 +115,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
-    };
-  },
-};
-</script>

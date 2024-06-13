@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
+    baseURL: process.env.NUXT_APP_BASE_URL ?? "/", // Stellt die Basis-URL für die gesamte Anwendung ein
     head: {
       title: "Wie viele Menschen?",
       htmlAttrs: {
