@@ -234,12 +234,10 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@8e83cea8672e3fbcbb9fdafff34debf6ae4c5f65 # v4.3.5
         with:
           server: 217.160.187.5
-          port: 22
           protocol: ftps
           username: wie-viele-menschen-bot
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: test/
+          local-dir: ./.output/public/
           dry-run: true
           dangerous-clean-slate: true
 
