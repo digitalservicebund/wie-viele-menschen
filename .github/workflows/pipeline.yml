@@ -216,6 +216,9 @@ jobs:
       - test
       - audit-licenses
       - vulnerability-scan
+    permissions:
+      id-token: write
+      pages: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
