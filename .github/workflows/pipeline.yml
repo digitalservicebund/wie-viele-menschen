@@ -80,7 +80,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         if: ${{ failure() && steps.a11y.outcome == 'failure' }}
-
         with:
           name: playwright-a11y-test-results
           path: test/a11y/playwright-report
@@ -209,3 +208,65 @@ jobs:
         if: ${{ failure() }}
         with:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  deploy-to-github-pages:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs:
+      - test
+      - audit-licenses
+      - vulnerability-scan
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Cache npm dependencies
+        id: cache-npm-deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            **/node_modules
+          key: "${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}"
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        if: steps.cache-npm-deps.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Build for production
+        run: npm run generate
+        env:
+          NUXT_APP_BASE_URL: "/wie-viele-menschen/"
+
+      - name: Create redirect file
+        run: |
+          echo '<!DOCTYPE html>
+          <html>
+          <head>
+              <meta http-equiv="refresh" content="0; url=https://digitalservice.bund.de/wie-viele-menschen/" />
+              <title>Redirecting...</title>
+          </head>
+          <body>
+              <p>If you are not redirected automatically, follow this <a href="https://digitalservice.bund.de/wie-viele-menschen/">link to the new page</a>.</p>
+          </body>
+          </html>' > ./.output/public/index.html
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.output/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
