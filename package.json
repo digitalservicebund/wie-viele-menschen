@@ -23,7 +23,7 @@
     "audit:licences": "license-checker --production --excludePrivatePackages --onlyAllow 'MIT;BSD-3-Clause;ISC;Apache-2.0;CC-BY-4.0;CC-BY-ND-4.0;Python-2.0;BSD-2-Clause;BlueOak-1.0.0;CC0-1.0;CC-BY-3.0' --summary"
   },
   "dependencies": {
-    "@digitalservice4germany/angie": "^1.1.1",
+    "@digitalservice4germany/angie": "^1.2.0",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt": "^3.12.4",
