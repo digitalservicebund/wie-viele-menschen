@@ -164,46 +164,40 @@
     "name": "Digitale Inklusion und Fähigkeiten",
     "data": [
       {
-        "characteristic": "Offliner:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
-        "percentage": 0.09
-      },
-      {
-        "characteristic": "Minimal-Onliner:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "characteristic": "Genügsame Verdränger*innen (Offliner*innen)",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.06
       },
       {
-        "characteristic": "Konservative Gelegenheitsnutzer:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
-        "percentage": 0.33
-      },
-      {
-        "characteristic": "Vorsichtige Pragmatiker:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
-        "percentage": 0.07
-      },
-      {
-        "characteristic": "Reflektierte Profis",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
-        "percentage": 0.22
-      },
-      {
-        "characteristic": "Progressive Anwender:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
-        "percentage": 0.15
-      },
-      {
-        "characteristic": "Technik Enthusiast:innen",
-        "source": "D21 Digital-Index 2021",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2021-22/d21digitalindex-2021_2022.pdf",
+        "characteristic": "Zufriedene Aussitzer*innen",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.09
+      },
+      {
+        "characteristic": "Ablehnende Mitte",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
+        "percentage": 0.24
+      },
+      {
+        "characteristic": "Aufgeschlossene Mitte",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
+        "percentage": 0.25
+      },
+      {
+        "characteristic": "Ambivalente Profis",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
+        "percentage": 0.13
+      },
+      {
+        "characteristic": "Zuversichtliche Profis",
+        "source": "D21 Digital-Index 2025",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
+        "percentage": 0.23
       },
       {
         "characteristic": "Deutsch auf Level A1",
