@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "build-and-deploy-${{ github.repository }}"
+  group: "build-and-deploy-${{ github.repository }}-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
