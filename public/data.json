@@ -71,8 +71,8 @@
       {
         "characteristic": "Rot-Grün-Farbenblindheit (Männer)",
         "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
-        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
-        "percentage": 0.08
+        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit",
+        "percentage": 0.04
       },
       {
         "characteristic": "Bipolare Störungen",
@@ -107,8 +107,8 @@
       {
         "characteristic": "Rot-Grün-Farbenblindheit (Frauen)",
         "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
-        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
-        "percentage": 0.004
+        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit",
+        "percentage": 0.002
       },
       {
         "characteristic": "Gehörlosigkeit",
