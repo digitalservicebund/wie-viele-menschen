@@ -2,12 +2,14 @@ export default defineNuxtConfig({
   devtools: { enabled: process.env.DEV_TOOLS !== "false" },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint"],
   css: ["~/assets/css/main.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL ?? "/", // Stellt die Basis-URL für die gesamte Anwendung ein
     head: {
@@ -63,4 +65,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2025-08-28",
 });
