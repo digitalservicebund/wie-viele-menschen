@@ -23,7 +23,7 @@ jobs:
         uses: digitalservicebund/github-actions/github-actions-linter@ca94f38ed2758daca16689e876dd0d399aa7d18a
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
@@ -97,7 +97,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
@@ -168,7 +168,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
@@ -224,7 +224,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
