@@ -8,7 +8,7 @@
         &#8592; Zurück zur Startseite
       </NuxtLink>
       <h1 class="mb-24">Erklärung zur Barrierefreiheit</h1>
-      <p class="leading-8">
+      <p class="leading-[2rem]">
         Informationen über die Zugänglichkeit dieser Webseiten gemäß § 12
         Behindertengleichstellungsgesetz (BGG) sowie über diesbezügliche
         Kontaktmöglichkeiten.

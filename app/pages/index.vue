@@ -2,7 +2,7 @@
   <div class="bg-blue-200 flex justify-center">
     <div class="p-32 max-w-3xl">
       <h1 class="mb-24">Wie viele Menschen?</h1>
-      <p class="leading-8">
+      <p class="leading-[2rem]">
         Jeder Mensch ist einzigartig und stellt spezielle Anforderungen an die
         Nutzung eines Services. Um diese Services allen Menschen zugänglich zu
         machen, müssen Barrieren abgebaut werden.
