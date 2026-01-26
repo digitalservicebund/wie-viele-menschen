@@ -6,7 +6,7 @@ A small website that displays how many of your users in Germany statistically ha
 
 ### Node.js
 
-We aim to use the current active [LTS version of nodejs](https://nodejs.dev/en/about/releases/), which is V22 at the time of writing.
+We aim to use the current active [LTS version of nodejs](https://nodejs.dev/en/about/releases/), which is V24 at the time of writing.
 There is a `.node-version` file to simplify setup using [nodenv](https://github.com/nodenv/nodenv) and a `.tool-versions` file for [asdf](https://github.com/asdf-vm/asdf-nodejs) usage (check and install used Node version by running `asdf current`).
 
 ### Testing

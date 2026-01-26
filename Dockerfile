@@ -1,4 +1,4 @@
-FROM node:22-alpine as build
+FROM node:24-alpine as build
 
 RUN apk update && apk upgrade
 
@@ -8,7 +8,7 @@ RUN  npm ci
 COPY . ./
 RUN npx nuxt build
 
-FROM node:22-alpine
+FROM node:24-alpine
 RUN apk update && apk upgrade && apk add dumb-init
 USER node
 WORKDIR /app
