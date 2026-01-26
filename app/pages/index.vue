@@ -180,7 +180,7 @@
 </template>
 
 <script lang="ts">
-import data from "public/data.json";
+import data from "~/assets/data/data.json";
 
 interface Item {
   characteristic: string;

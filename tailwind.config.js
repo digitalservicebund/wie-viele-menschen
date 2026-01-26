@@ -1,9 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
-  presets: [require("@digitalservice4germany/style-dictionary/tailwind")],
-  plugins: [require("@digitalservice4germany/angie")],
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 };

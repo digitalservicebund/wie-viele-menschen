@@ -1,8 +1,9 @@
+@import "tailwindcss";
+
 @import "@digitalservice4germany/angie/fonts.css";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config "@digitalservice4germany/style-dictionary/tailwind";
+@plugin "@digitalservice4germany/angie";
 
 @layer base {
   body {

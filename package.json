@@ -35,6 +35,7 @@
     "@nuxt/eslint": "^1.13.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@playwright/test": "^1.58.0",
+    "@tailwindcss/vite": "^4.1.18",
     "axe-playwright": "^2.2.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
