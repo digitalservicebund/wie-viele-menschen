@@ -47,13 +47,6 @@ export default defineNuxtConfig({
           sizes: "32x32",
         },
       ],
-      script: [
-        {
-          defer: true,
-          "data-domain": process.env.NUXT_APP_BASE_URL ?? "",
-          src: "https://plausible.io/js/script.js",
-        },
-      ],
     },
   },
 
@@ -63,9 +56,15 @@ export default defineNuxtConfig({
 
   devtools: { enabled: process.env.DEV_TOOLS !== "false" },
 
-  modules: ["@nuxt/eslint"],
+  modules: ["@nuxt/eslint", "@nuxtjs/plausible"],
 
   vite: {
     plugins: [tailwindcss()],
+  },
+
+  plausible: {
+    // Prevent tracking on localhost
+    ignoredHostnames: ["localhost"],
+    domain: process.env.NUXT_PLAUSIBLE_DOMAIN,
   },
 });
