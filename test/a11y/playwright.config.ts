@@ -25,7 +25,7 @@ const config: PlaywrightTestConfig = {
     },
   ],
   webServer: {
-    command: `DEV_TOOLS=false npm run dev -- --port ${port}`,
+    command: `DEV_TOOLS=false NUXT_BUILD_DIR=.nuxt-test NUXT_IGNORE_LOCK=1 npm run dev -- --port=${port}`,
     port,
     timeout,
   },

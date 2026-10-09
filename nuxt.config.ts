@@ -50,9 +50,12 @@ export default defineNuxtConfig({
     },
   },
 
+  // Separate build dir so the Playwright dev server doesn't clash with a running `npm run dev`
+  buildDir: process.env.NUXT_BUILD_DIR,
+
   compatibilityDate: "2025-08-28",
 
-  css: ["./app/assets/css/main.css"],
+  css: ["~/assets/css/main.css"],
 
   devtools: { enabled: process.env.DEV_TOOLS !== "false" },
 

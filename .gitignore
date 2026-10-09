@@ -2,6 +2,7 @@
 .output
 .data
 .nuxt
+.nuxt-test
 .nitro
 .cache
 dist

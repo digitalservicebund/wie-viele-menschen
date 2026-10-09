@@ -27,24 +27,29 @@
     "@digitalservice4germany/style-dictionary": "^2.0.0",
     "@nuxtjs/plausible": "^3.0.2",
     "nuxt": "^4.3.0",
-    "vue": "^3.5.27",
+    "vue": "^3.5.43",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.11.0",
-    "@nuxt/devtools": "^3.1.1",
-    "@nuxt/eslint": "^1.13.0",
-    "@playwright/test": "^1.58.0",
-    "@tailwindcss/vite": "^4.1.18",
+    "@axe-core/playwright": "^4.13.0",
+    "@nuxt/devtools": "^3.4.2",
+    "@nuxt/eslint": "^1.17.0",
+    "@playwright/test": "^1.64.0",
+    "@tailwindcss/vite": "^4.3.3",
     "axe-playwright": "^2.2.2",
-    "eslint": "^9.39.2",
+    "eslint": "^10.12.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-prettier": "^5.5.6",
     "license-checker-rseidelsohn": "^4.4.2",
     "playwright": "^1.58.0",
-    "postcss": "^8.5.6",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
+    "postcss": "^8.5.29",
+    "prettier": "^3.9.9",
+    "prettier-plugin-tailwindcss": "^0.7.4",
     "tailwindcss": "^4.1.18"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true,
+    "unrs-resolver@1.12.2": true
   }
 }
