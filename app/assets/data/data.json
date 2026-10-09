@@ -4,6 +4,7 @@
     "data": [
       {
         "characteristic": "Sehschwäche",
+        "description": "Brauchen eine Brille, Kontaktlinsen oder eine andere Sehhilfe, um gut zu sehen.",
         "source": "Kuratorium Gutes Sehen/Zentralverband der Augenoptiker und Optometristen (Allensbacher Brillenstudie 2024)",
         "link": "https://www.zva.de/wp-content/uploads/ZVA-Brillenstudie-2024.pdf",
         "percentage": 0.66,
@@ -12,6 +13,7 @@
       },
       {
         "characteristic": "Rechenschwäche",
+        "description": "Können höchstens einfache Rechenaufgaben lösen, zum Beispiel mit ganzen Zahlen oder Geld; mehrere Rechenschritte fallen schwer.",
         "source": "OECD (PIAAC 2023)",
         "link": "https://www.oecd.org/de/publications/2024/12/survey-of-adults-skills-2023-country-notes_df7b4a60/germany_264dd624.html",
         "percentage": 0.2,
@@ -20,6 +22,7 @@
       },
       {
         "characteristic": "Psychische Krankheiten",
+        "description": "Geben an, psychisch krank zu sein, zum Beispiel durch Depression, Angst-, Ess- oder Zwangsstörungen.",
         "source": "AXA Mental Health Report 2024",
         "link": "https://www.axa.de/presse/mediathek/studien-und-forschung/mental-health-report-2024",
         "percentage": 0.31,
@@ -28,6 +31,7 @@
       },
       {
         "characteristic": "Starke Probleme beim Gehen",
+        "description": "Können nur mit großen Schwierigkeiten oder gar nicht 500 Meter gehen oder Treppen steigen.",
         "source": "Robert Koch-Institut (RKI-Panel 2024)",
         "link": "https://www.gbe.rki.de/koerperliche-einschraenkungen",
         "percentage": 0.07,
@@ -36,6 +40,7 @@
       },
       {
         "characteristic": "Probleme beim Hören",
+        "description": "Haben Schwierigkeiten, ein Gespräch zu verstehen, zum Beispiel in einem lauten Raum.",
         "source": "Robert Koch-Institut (GEDA 2019/2020-EHIS)",
         "link": "https://doi.org/10.25646/14328",
         "percentage": 0.325,
@@ -44,6 +49,7 @@
       },
       {
         "characteristic": "Lese- und Schreibschwäche",
+        "description": "Können höchstens einzelne Sätze lesen und schreiben, aber keine längeren Texte.",
         "source": "Universität Hamburg (LEO 2018)",
         "link": "https://leo.blogs.uni-hamburg.de/wp-content/uploads/2022/09/LEO2018-Presseheft.pdf",
         "percentage": 0.121,
@@ -52,6 +58,7 @@
       },
       {
         "characteristic": "Mobilitätseinschränkung",
+        "description": "Sind aus gesundheitlichen Gründen beim Unterwegssein eingeschränkt, vor allem durch eine Geh- oder Sehbehinderung.",
         "source": "Bundesministerium für Verkehr (Mobilität in Deutschland 2023)",
         "link": "https://www.mobilitaet-in-deutschland.de/pdf/MiD2023_Ergebnisbericht.pdf",
         "percentage": 0.14,
@@ -60,6 +67,7 @@
       },
       {
         "characteristic": "Rechenstörung (Dyskalkulie)",
+        "description": "Haben große und dauerhafte Schwierigkeiten mit Zahlen und Rechnen, trotz Unterricht und Förderung.",
         "source": "Deutsches Ärzteblatt",
         "link": "https://www.aerzteblatt.de/archiv/205460/Diagnostik-und-Behandlung-der-Rechenstoerung",
         "percentage": 0.05,
@@ -68,6 +76,7 @@
       },
       {
         "characteristic": "Angststörungen",
+        "description": "Haben eine ärztlich festgestellte Angststörung, zum Beispiel Panikattacken oder starke Ängste vor bestimmten Situationen.",
         "source": "IKK-Studie",
         "link": "https://www.ikkev.de/presse/meldungen-aus-den-ikken/details/immer-mehr-menschen-mit-angststoerungen/?",
         "percentage": 0.066,
@@ -76,6 +85,7 @@
       },
       {
         "characteristic": "Chronische Erkrankungen oder dauerhaftes Gesundheitsproblem",
+        "description": "Haben eine Krankheit oder ein Gesundheitsproblem, das schon mindestens 6 Monate dauert oder so lange dauern wird.",
         "source": "Robert Koch-Institut (RKI-Panel 2024)",
         "link": "https://www.gbe.rki.de/chronisches-kranksein",
         "percentage": 0.537,
@@ -83,7 +93,8 @@
         "basis": "Erwachsene ab 18 Jahren"
       },
       {
-        "characteristic": "ADHD (Erwachsenenalter)",
+        "characteristic": "ADHS",
+        "description": "Haben Probleme mit Aufmerksamkeit, innere Unruhe und unüberlegtes Handeln.",
         "source": "Universitätsklinikum Köln",
         "link": "https://www.adhs.info/fuer-erwachsene/wichtige-zahlen-und-fakten",
         "percentage": 0.047,
@@ -92,6 +103,7 @@
       },
       {
         "characteristic": "Rot-Grün-Sehschwäche",
+        "description": "Können Rot- und Grüntöne schlecht oder gar nicht unterscheiden. Betrifft vor allem Männer.",
         "source": "Berufsverband der Augenärzte Deutschlands (BVA)",
         "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit",
         "percentage": 0.042,
@@ -100,6 +112,7 @@
       },
       {
         "characteristic": "Bipolare Störungen",
+        "description": "Haben eine psychische Erkrankung mit wechselnden Phasen von starker Hochstimmung und Depression.",
         "source": "Deutsche Gesellschaft für Bipolare Störungen e.V.",
         "link": "https://dgbs.de/bipolare-stoerung/verlauf",
         "percentage": 0.03,
@@ -108,6 +121,7 @@
       },
       {
         "characteristic": "Lernschwächen und Lernstörungen",
+        "description": "Haben eine Lernbehinderung: lernen deutlich langsamer und brauchen dauerhaft besondere Unterstützung.",
         "source": "Bundesverband zur Förderung von Menschen mit Lernbehinderungen",
         "link": "https://lernen-foerdern.de/wp-content/uploads/2023/02/LERNEN-FOeRDERN_Eser_Statistik-zur-Lernbehinderung_12.12.2020.pdf",
         "percentage": 0.023,
@@ -116,6 +130,7 @@
       },
       {
         "characteristic": "Demenz",
+        "description": "Haben eine Demenz, zum Beispiel Alzheimer: Gedächtnis, Denken und Orientierung lassen dauerhaft nach.",
         "source": "Deutsche Alzheimer Gesellschaft",
         "link": "https://www.deutsche-alzheimer.de/fileadmin/alz/pdf/factsheets/infoblatt1_haeufigkeit_demenzerkrankungen_dalzg.pdf",
         "percentage": 0.021362,
@@ -124,6 +139,7 @@
       },
       {
         "characteristic": "Autismus",
+        "description": "Nehmen Reize und soziale Situationen anders wahr, Kommunikation kann schwerfallen.",
         "source": "Weltgesundheitsorganisation (WHO)",
         "link": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
         "percentage": 0.008,
@@ -132,6 +148,7 @@
       },
       {
         "characteristic": "Gehörlosigkeit",
+        "description": "Können auch mit Hörhilfen keine Sprache hören. Viele nutzen Gebärdensprache.",
         "source": "Bundesfachstelle Barrierefreiheit",
         "link": "https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Information-und-Kommunikation/Gebaerdensprache/gebaerdensprache_node.html",
         "percentage": 0.001,
@@ -140,6 +157,7 @@
       },
       {
         "characteristic": "Vollständige Farbenblindheit",
+        "description": "Sehen keine Farben, sondern nur Grautöne; sind oft auch sehr empfindlich gegenüber Licht.",
         "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
         "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
         "percentage": 0.000036,
@@ -148,6 +166,7 @@
       },
       {
         "characteristic": "Schwerbehinderung",
+        "description": "Haben einen amtlich anerkannten Grad der Behinderung von mindestens 50 (Schwerbehindertenausweis).",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.093871,
@@ -156,6 +175,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: fehlende Arme oder Beine",
+        "description": "Haben eine Schwerbehinderung, weil Arme, Beine oder Teile davon fehlen.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.00053,
@@ -164,6 +184,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: eingeschränkte Arme oder Beine",
+        "description": "Haben eine Schwerbehinderung, weil Arme oder Beine nur eingeschränkt beweglich oder belastbar sind.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.009069,
@@ -172,6 +193,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: Rücken oder Oberkörper",
+        "description": "Haben eine Schwerbehinderung, weil Wirbelsäule oder Oberkörper nur eingeschränkt funktionieren.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.008754,
@@ -180,6 +202,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: Blindheit oder Sehbehinderung",
+        "description": "Haben eine Schwerbehinderung, weil sie blind sind oder sehr schlecht sehen.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.00382,
@@ -188,6 +211,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: Hören, Sprechen oder Gleichgewicht",
+        "description": "Haben eine Schwerbehinderung, weil Hören, Sprechen oder das Gleichgewicht stark eingeschränkt sind.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.003856,
@@ -196,6 +220,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: Gehirn, Psyche, Lähmung oder Sucht",
+        "description": "Haben eine Schwerbehinderung wegen Querschnittlähmung, einer Erkrankung des Gehirns, einer psychischen Erkrankung oder Sucht.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.022593,
@@ -204,6 +229,7 @@
       },
       {
         "characteristic": "Schwerbehinderung: geistige Behinderung oder Hirnschädigung",
+        "description": "Haben eine Schwerbehinderung wegen geistiger Behinderung, Lernbehinderung, Hirnleistungsschwäche oder Anfällen wie Epilepsie.",
         "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
         "percentage": 0.012639,
@@ -212,6 +238,7 @@
       },
       {
         "characteristic": "Pflegebedarf",
+        "description": "Haben einen anerkannten Pflegegrad und brauchen im Alltag regelmäßig Hilfe.",
         "source": "Statistisches Bundesamt (Pflegestatistik 2023)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html",
         "percentage": 0.068,
@@ -220,6 +247,7 @@
       },
       {
         "characteristic": "Hörgerät",
+        "description": "Nutzen ein Hörgerät, um besser zu hören.",
         "source": "Robert Koch-Institut (GEDA 2019/2020-EHIS)",
         "link": "https://doi.org/10.25646/14328",
         "percentage": 0.054,
@@ -228,6 +256,7 @@
       },
       {
         "characteristic": "Rollstuhl, Rollator oder E-Mobil",
+        "description": "Brauchen unterwegs in der Regel einen Rollstuhl, einen Rollator oder ein Elektromobil.",
         "source": "Bundesministerium für Verkehr (Mobilität in Deutschland 2023)",
         "link": "https://www.mobilitaet-in-deutschland.de/pdf/MiD2023_Ergebnisbericht.pdf",
         "percentage": 0.038,
@@ -236,6 +265,7 @@
       },
       {
         "characteristic": "Migräne",
+        "description": "Haben immer wieder starke Kopfschmerzanfälle, oft mit Übelkeit und Empfindlichkeit gegenüber Licht und Lärm.",
         "source": "Robert Koch-Institut (BURDEN 2020)",
         "link": "https://doi.org/10.25646/6988",
         "percentage": 0.105,
@@ -249,6 +279,7 @@
     "data": [
       {
         "characteristic": "Genügsame Verdränger*innen (Offliner*innen)",
+        "description": "Nutzen das Internet nicht und sehen für sich keinen Nutzen darin („Kann ich nicht – brauch' ich nicht.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.06,
@@ -257,6 +288,7 @@
       },
       {
         "characteristic": "Zufriedene Aussitzer*innen",
+        "description": "Haben nur wenige digitale Kenntnisse und möchten auch nicht mehr lernen („Das Nötigste reicht mir vollkommen aus.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.09,
@@ -265,6 +297,7 @@
       },
       {
         "characteristic": "Ablehnende Mitte",
+        "description": "Sind online, stehen der Digitalisierung aber eher skeptisch gegenüber („Wo soll das noch alles hinführen?“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.24,
@@ -273,6 +306,7 @@
       },
       {
         "characteristic": "Aufgeschlossene Mitte",
+        "description": "Haben mittlere digitale Kenntnisse und sehen die Digitalisierung positiv („Auf die Digitalisierung will ich nicht mehr verzichten.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.25,
@@ -281,6 +315,7 @@
       },
       {
         "characteristic": "Ambivalente Profis",
+        "description": "Haben gute digitale Kenntnisse, sehen die Digitalisierung aber zwiegespalten („Zur Digitalisierung sag' ich ‚jein‘.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.13,
@@ -289,6 +324,7 @@
       },
       {
         "characteristic": "Zuversichtliche Profis",
+        "description": "Haben sehr gute digitale Kenntnisse und sehen die Digitalisierung sehr positiv („Die Zukunft ist digital und das ist auch gut so!“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
         "percentage": 0.23,
@@ -297,6 +333,7 @@
       },
       {
         "characteristic": "Andere Sprache als Deutsch zu Hause",
+        "description": "Verständigten sich zu Hause vorwiegend oder ausschließlich in einer anderen Sprache als Deutsch.",
         "source": "Statistisches Bundesamt (Mikrozensus 2024)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_08_p002.html",
         "percentage": 0.186,
@@ -305,6 +342,7 @@
       },
       {
         "characteristic": "Keine digitalen Grundkenntnisse",
+        "description": "Haben nicht in allen fünf Bereichen digitale Grundkenntnisse, zum Beispiel beim Suchen von Informationen, Kommunizieren oder beim Schutz vor Online-Risiken.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i21/default/table?lang=en",
         "percentage": 0.405,
@@ -318,6 +356,7 @@
     "data": [
       {
         "characteristic": "Kein Internet auf dem Handy",
+        "description": "Waren in den letzten 3 Monaten nicht mit dem Handy oder Smartphone im Internet.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_dev_i/default/table?lang=en",
         "percentage": 0.126,
@@ -326,6 +365,7 @@
       },
       {
         "characteristic": "Kein Smartphone",
+        "description": "Nutzen privat kein Smartphone.",
         "source": "Bitkom",
         "link": "https://www.bitkom.org/Presse/Presseinformation/Smartphone-KI-fuer-ein-Drittel-Alltag",
         "percentage": 0.14,
@@ -334,6 +374,7 @@
       },
       {
         "characteristic": "Keine Internetnutzung (letzte 12 Monate)",
+        "description": "Waren in den letzten 12 Monaten nicht im Internet.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ifp_iu/default/table?lang=en",
         "percentage": 0.045,
@@ -342,6 +383,7 @@
       },
       {
         "characteristic": "Keine Internetnutzung (noch nie)",
+        "description": "Waren noch nie im Internet.",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
         "percentage": 0.034,
@@ -350,6 +392,7 @@
       },
       {
         "characteristic": "Internet nur auf dem Handy",
+        "description": "Sind nur mit dem Handy online, nicht mit Computer, Laptop oder Tablet.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_dev_i/default/table?lang=en",
         "percentage": 0.19,
@@ -358,6 +401,7 @@
       },
       {
         "characteristic": "Kein Online-Banking",
+        "description": "Haben in den letzten 3 Monaten kein Online-Banking genutzt.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table?lang=en",
         "percentage": 0.293,
@@ -366,6 +410,7 @@
       },
       {
         "characteristic": "Keine E-Mail",
+        "description": "Haben in den letzten 3 Monaten keine E-Mails geschrieben oder gelesen.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table?lang=en",
         "percentage": 0.122,
@@ -379,6 +424,7 @@
     "data": [
       {
         "characteristic": "Keine Online-Angebote von Behörden genutzt",
+        "description": "Haben in den letzten 12 Monaten keine Website oder App einer Behörde genutzt.",
         "source": "Eurostat",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ciegi_ac/default/table?lang=en",
         "percentage": 0.335,
@@ -387,6 +433,7 @@
       },
       {
         "characteristic": "Kein Online-Ausweis genutzt",
+        "description": "Haben die Online-Funktion des Personalausweises noch nie genutzt.",
         "source": "Initiative D21/TU München (eGovernment MONITOR 2026)",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2026/D21-eGovMon2026.pdf",
         "percentage": 0.71,
@@ -395,6 +442,7 @@
       },
       {
         "characteristic": "Keine BundID genutzt",
+        "description": "Nutzen die BundID nicht, das zentrale Konto für Online-Anträge bei Behörden.",
         "source": "Initiative D21/TU München (eGovernment MONITOR 2026)",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2026/D21-eGovMon2026.pdf",
         "percentage": 0.79,
@@ -408,6 +456,7 @@
     "data": [
       {
         "characteristic": "Armutsgefährdet (wenig Einkommen)",
+        "description": "Haben weniger als 60 % des mittleren Einkommens, als Alleinlebende zum Beispiel weniger als 1.446 € netto im Monat.",
         "source": "Statistisches Bundesamt (EU-SILC 2025)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_039_63.html",
         "percentage": 0.161,
@@ -416,6 +465,7 @@
       },
       {
         "characteristic": "Materielle Entbehrung (kann sich Grundlegendes nicht leisten)",
+        "description": "Können sich mindestens 7 von 13 Dingen des Alltags nicht leisten, zum Beispiel unerwartete Ausgaben, eine warme Wohnung oder Urlaub.",
         "source": "Eurostat (EU-SILC 2025)",
         "link": "https://ec.europa.eu/eurostat/databrowser/view/ilc_mdsd11/default/table?lang=en",
         "percentage": 0.056,
@@ -424,6 +474,7 @@
       },
       {
         "characteristic": "Eingewandert",
+        "description": "Sind selbst seit 1950 nach Deutschland eingewandert.",
         "source": "Statistisches Bundesamt (Mikrozensus 2025)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_128_125.html",
         "percentage": 0.198,
@@ -432,6 +483,7 @@
       },
       {
         "characteristic": "Mit Einwanderungsgeschichte",
+        "description": "Sind selbst nach Deutschland eingewandert oder beide Eltern sind seit 1950 eingewandert.",
         "source": "Statistisches Bundesamt (Mikrozensus 2025)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_128_125.html",
         "percentage": 0.263,
@@ -440,6 +492,7 @@
       },
       {
         "characteristic": "Ohne deutschen Pass",
+        "description": "Haben keine deutsche Staatsangehörigkeit.",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/zensus-geschlecht-staatsangehoerigkeit-2025.html",
         "percentage": 0.149,
@@ -448,6 +501,7 @@
       },
       {
         "characteristic": "Geflüchtet",
+        "description": "Leben aus humanitären, politischen oder völkerrechtlichen Gründen als Schutzsuchende in Deutschland.",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_162_125.html",
         "percentage": 0.039,
@@ -456,6 +510,7 @@
       },
       {
         "characteristic": "Ohne Schulabschluss",
+        "description": "Haben keinen allgemeinen Schulabschluss, also zum Beispiel keinen Hauptschulabschluss.",
         "source": "Statistisches Bundesamt (Mikrozensus 2025)",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsindikatoren/bildungsstand-tabelle.html",
         "percentage": 0.057,
@@ -469,6 +524,7 @@
     "data": [
       {
         "characteristic": "65 Jahre und älter",
+        "description": "Sind 65 Jahre oder älter.",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/bevoelkerung-ab-65-j.html",
         "percentage": 0.231,
@@ -477,6 +533,7 @@
       },
       {
         "characteristic": "80 Jahre und älter",
+        "description": "Sind 80 Jahre oder älter.",
         "source": "Statistisches Bundesamt",
         "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-basis-2022.html",
         "percentage": 0.07,
@@ -485,6 +542,7 @@
       },
       {
         "characteristic": "Alleinerziehend",
+        "description": "Leben ohne Partnerin oder Partner mit Kindern unter 18 Jahren in einem Haushalt.",
         "source": "Statistisches Bundesamt (Mikrozensus 2025)",
         "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_N051_12.html",
         "percentage": 0.0196,
