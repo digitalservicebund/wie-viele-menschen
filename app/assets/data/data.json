@@ -4,159 +4,273 @@
     "data": [
       {
         "characteristic": "Sehschwäche",
-        "source": "Kuratorium Gutes Sehen/Zentralverband der Augenoptiker und Optometristen",
-        "link": "https://www.zva.de/brillenstudie",
-        "percentage": 0.666
+        "description": "Brauchen eine Brille, Kontaktlinsen oder eine andere Sehhilfe, um gut zu sehen.",
+        "source": "Kuratorium Gutes Sehen/Zentralverband der Augenoptiker und Optometristen (Allensbacher Brillenstudie 2024)",
+        "link": "https://www.zva.de/wp-content/uploads/ZVA-Brillenstudie-2024.pdf",
+        "percentage": 0.66,
+        "year": "2024",
+        "basis": "Menschen ab 16 Jahren"
       },
       {
         "characteristic": "Rechenschwäche",
-        "source": "Stiftung Rechnen",
-        "link": "https://www.stiftungrechnen.de/wp-content/uploads/2021/03/Ergebnisbericht-Studie-Rechnen-in-Deutschland.pdf",
-        "percentage": 0.63
+        "description": "Können höchstens einfache Rechenaufgaben lösen, zum Beispiel mit ganzen Zahlen oder Geld; mehrere Rechenschritte fallen schwer.",
+        "source": "OECD (PIAAC 2023)",
+        "link": "https://www.oecd.org/de/publications/2024/12/survey-of-adults-skills-2023-country-notes_df7b4a60/germany_264dd624.html",
+        "percentage": 0.2,
+        "year": "2022/2023",
+        "basis": "Menschen von 16 bis 65 Jahren"
       },
       {
         "characteristic": "Psychische Krankheiten",
+        "description": "Geben an, psychisch krank zu sein, zum Beispiel durch Depression, Angst-, Ess- oder Zwangsstörungen.",
         "source": "AXA Mental Health Report 2024",
         "link": "https://www.axa.de/presse/mediathek/studien-und-forschung/mental-health-report-2024",
-        "percentage": 0.31
+        "percentage": 0.31,
+        "year": "2024",
+        "basis": "Menschen von 18 bis 75 Jahren"
       },
       {
-        "characteristic": "Motorische Einschränkungen",
-        "source": "Deutsches Rheuma-Forschungszentrum Berlin",
-        "link": "https://dgrh.de/dam/jcr:29cb645e-2839-4f89-a456-882e728f75b4/Rheuma%20in%20Zahlen.pdf",
-        "percentage": 0.25
+        "characteristic": "Starke Probleme beim Gehen",
+        "description": "Können nur mit großen Schwierigkeiten oder gar nicht 500 Meter gehen oder Treppen steigen.",
+        "source": "Robert Koch-Institut (RKI-Panel 2024)",
+        "link": "https://www.gbe.rki.de/koerperliche-einschraenkungen",
+        "percentage": 0.07,
+        "year": "2024",
+        "basis": "Erwachsene ab 18 Jahren"
       },
       {
-        "characteristic": "Hörschädigung und Schwerhörigkeit",
-        "source": "EuroTrak Germany 2018 und WHO",
-        "link": "https://www.geers.de/hoeren-ohrengesundheit/ohrenkrankheiten/hoerverlust-und-schwerhoerigkeit/#:~:text=10%20Millionen%20Menschen%20in%20Deutschland,leiden%20an%20einer%20relevanten%20Schwerh%C3%B6rigkeit.",
-        "percentage": 0.11934
+        "characteristic": "Probleme beim Hören",
+        "description": "Haben Schwierigkeiten, ein Gespräch zu verstehen, zum Beispiel in einem lauten Raum.",
+        "source": "Robert Koch-Institut (GEDA 2019/2020-EHIS)",
+        "link": "https://doi.org/10.25646/14328",
+        "percentage": 0.325,
+        "year": "2019/2020",
+        "basis": "Erwachsene ab 18 Jahren"
       },
       {
         "characteristic": "Lese- und Schreibschwäche",
-        "source": "Lehrinstitute für Orthographie und Sprachkompetenz (LOS)",
-        "link": "https://www.los.de/ratgeber-fuer-lrs/lrs/lrs-bei-erwachsenen",
-        "percentage": 0.089499
+        "description": "Können höchstens einzelne Sätze lesen und schreiben, aber keine längeren Texte.",
+        "source": "Universität Hamburg (LEO 2018)",
+        "link": "https://leo.blogs.uni-hamburg.de/wp-content/uploads/2022/09/LEO2018-Presseheft.pdf",
+        "percentage": 0.121,
+        "year": "2018",
+        "basis": "Deutschsprachige Erwachsene von 18 bis 64 Jahren"
       },
       {
         "characteristic": "Mobilitätseinschränkung",
-        "source": "Bundesministerium für Verkehr und digitale Infrastruktur (BMVI)",
-        "link": "https://www.mobilitaet-in-deutschland.de/archive/publikationen2017.html",
-        "percentage": 0.07
+        "description": "Sind aus gesundheitlichen Gründen beim Unterwegssein eingeschränkt, vor allem durch eine Geh- oder Sehbehinderung.",
+        "source": "Bundesministerium für Verkehr (Mobilität in Deutschland 2023)",
+        "link": "https://www.mobilitaet-in-deutschland.de/pdf/MiD2023_Ergebnisbericht.pdf",
+        "percentage": 0.14,
+        "year": "2023",
+        "basis": "Alle Menschen in Deutschland"
       },
       {
         "characteristic": "Rechenstörung (Dyskalkulie)",
-        "source": "Ärzteblatt/Statistisches Bundesamt",
-        "link": "https://www.aerzteblatt.de/archiv/205460/Diagnostik-und-Behandlung-der-Rechenstoerung#:~:text=Unter%20einer%20Rechenst%C3%B6rung%20(Dyskalkulie)%20leiden,wird%20nach%20wie%20vor%20untersch%C3%A4tzt.",
-        "percentage": 0.07
+        "description": "Haben große und dauerhafte Schwierigkeiten mit Zahlen und Rechnen, trotz Unterricht und Förderung.",
+        "source": "Deutsches Ärzteblatt",
+        "link": "https://www.aerzteblatt.de/archiv/205460/Diagnostik-und-Behandlung-der-Rechenstoerung",
+        "percentage": 0.05,
+        "year": "2019",
+        "basis": "Alle Menschen in Deutschland"
       },
       {
         "characteristic": "Angststörungen",
+        "description": "Haben eine ärztlich festgestellte Angststörung, zum Beispiel Panikattacken oder starke Ängste vor bestimmten Situationen.",
         "source": "IKK-Studie",
         "link": "https://www.ikkev.de/presse/meldungen-aus-den-ikken/details/immer-mehr-menschen-mit-angststoerungen/?",
-        "percentage": 0.066
+        "percentage": 0.066,
+        "year": "2022",
+        "basis": "Versicherte der IKK classic"
       },
       {
-        "characteristic": "Chronische Erkrankungen",
-        "source": "Robert Bosch Stiftung",
-        "link": "https://www.bosch-stiftung.de/sites/default/files/publications/pdf/2021-09/Mehr_Gesundheit_f%C3%BCr_eine_Gesellschaft_des_langen_Lebens.pdf",
-        "percentage": 0.047733
+        "characteristic": "Chronische Erkrankungen oder dauerhaftes Gesundheitsproblem",
+        "description": "Haben eine Krankheit oder ein Gesundheitsproblem, das schon mindestens 6 Monate dauert oder so lange dauern wird.",
+        "source": "Robert Koch-Institut (RKI-Panel 2024)",
+        "link": "https://www.gbe.rki.de/chronisches-kranksein",
+        "percentage": 0.537,
+        "year": "2024",
+        "basis": "Erwachsene ab 18 Jahren"
       },
       {
-        "characteristic": "ADHD (Erwachsenenalter)",
+        "characteristic": "ADHS",
+        "description": "Haben Probleme mit Aufmerksamkeit, innere Unruhe und unüberlegtes Handeln.",
         "source": "Universitätsklinikum Köln",
         "link": "https://www.adhs.info/fuer-erwachsene/wichtige-zahlen-und-fakten",
-        "percentage": 0.047
+        "percentage": 0.047,
+        "year": null,
+        "basis": "Erwachsene"
       },
       {
-        "characteristic": "Rot-Grün-Farbenblindheit (Männer)",
-        "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
+        "characteristic": "Rot-Grün-Sehschwäche",
+        "description": "Können Rot- und Grüntöne schlecht oder gar nicht unterscheiden. Betrifft vor allem Männer.",
+        "source": "Berufsverband der Augenärzte Deutschlands (BVA)",
         "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit",
-        "percentage": 0.04
+        "percentage": 0.042,
+        "year": null,
+        "basis": "Alle Menschen in Deutschland"
       },
       {
         "characteristic": "Bipolare Störungen",
+        "description": "Haben eine psychische Erkrankung mit wechselnden Phasen von starker Hochstimmung und Depression.",
         "source": "Deutsche Gesellschaft für Bipolare Störungen e.V.",
         "link": "https://dgbs.de/bipolare-stoerung/verlauf",
-        "percentage": 0.03
+        "percentage": 0.03,
+        "year": null,
+        "basis": "Nicht angegeben"
       },
       {
         "characteristic": "Lernschwächen und Lernstörungen",
+        "description": "Haben eine Lernbehinderung: lernen deutlich langsamer und brauchen dauerhaft besondere Unterstützung.",
         "source": "Bundesverband zur Förderung von Menschen mit Lernbehinderungen",
         "link": "https://lernen-foerdern.de/wp-content/uploads/2023/02/LERNEN-FOeRDERN_Eser_Statistik-zur-Lernbehinderung_12.12.2020.pdf",
-        "percentage": 0.023
+        "percentage": 0.023,
+        "year": "2020",
+        "basis": "Alle Menschen in Deutschland"
       },
       {
-        "characteristic": "Demenzerkrankungen und Gedächtnisstörungen",
+        "characteristic": "Demenz",
+        "description": "Haben eine Demenz, zum Beispiel Alzheimer: Gedächtnis, Denken und Orientierung lassen dauerhaft nach.",
         "source": "Deutsche Alzheimer Gesellschaft",
-        "link": "https://www.deutsche-alzheimer.de/artikel/deutsche-alzheimer-gesellschaft-stellt-neue-zahlen-zur-demenz-vor-deutlich-mehr-erkrankte-unter-65-jahren-als-bisher-angenommen#:~:text=Nach%20neuesten%20Berechnungen%20leben%20in,neu%20an%20einer%20Demenz%20erkrankt.",
-        "percentage": 0.02148
-      },
-      {
-        "characteristic": "Geistige Behinderung und zerebrale Störungen",
-        "source": "Statistisches Bundesamt",
-        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Tabellen/geschlecht-behinderung.html",
-        "percentage": 0.021366
+        "link": "https://www.deutsche-alzheimer.de/fileadmin/alz/pdf/factsheets/infoblatt1_haeufigkeit_demenzerkrankungen_dalzg.pdf",
+        "percentage": 0.021362,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland"
       },
       {
         "characteristic": "Autismus",
-        "source": "Autismus verstehen e.V.",
-        "link": "https://autismus-verstehen.de/autismus/haeufigkeit/#:~:text=Wissenschaftliche%20Untersuchungen%20in%20Deutschland%20sind,durchschnittlichen%20Angaben%20teilweise%20deutlich%20h%C3%B6her.",
-        "percentage": 0.01
-      },
-      {
-        "characteristic": "Rot-Grün-Farbenblindheit (Frauen)",
-        "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
-        "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit",
-        "percentage": 0.002
+        "description": "Nehmen Reize und soziale Situationen anders wahr, Kommunikation kann schwerfallen.",
+        "source": "Weltgesundheitsorganisation (WHO)",
+        "link": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
+        "percentage": 0.008,
+        "year": "2021",
+        "basis": "Alle Menschen weltweit"
       },
       {
         "characteristic": "Gehörlosigkeit",
+        "description": "Können auch mit Hörhilfen keine Sprache hören. Viele nutzen Gebärdensprache.",
         "source": "Bundesfachstelle Barrierefreiheit",
         "link": "https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Information-und-Kommunikation/Gebaerdensprache/gebaerdensprache_node.html",
-        "percentage": 0.001
+        "percentage": 0.001,
+        "year": null,
+        "basis": "Alle Menschen in Deutschland"
       },
       {
         "characteristic": "Vollständige Farbenblindheit",
+        "description": "Sehen keine Farben, sondern nur Grautöne; sind oft auch sehr empfindlich gegenüber Licht.",
         "source": "Berufsverbands der Augenärzte Deutschlands (BVA)",
         "link": "https://www.pro-retina.de/netzhaut-und-farbenblindheit#:~:text=Nur%203.000%20total%20Farbenblinde%20in%20Deutschland&text=Unter%20100.000%20Menschen%20l%C3%A4sst%20sich,erkennen%E2%80%9C%2C%20so%20Medizinerin%20Debrodt.",
-        "percentage": 0.000036
+        "percentage": 0.000036,
+        "year": null,
+        "basis": "Alle Menschen in Deutschland"
       },
       {
-        "characteristic": "Verlust oder Teilverlust von Gliedmaßen",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.000599
+        "characteristic": "Schwerbehinderung",
+        "description": "Haben einen amtlich anerkannten Grad der Behinderung von mindestens 50 (Schwerbehindertenausweis).",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.093871,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
       },
       {
-        "characteristic": "Funktionseinschränkung von Gliedmaßen",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.010078
+        "characteristic": "Schwerbehinderung: fehlende Arme oder Beine",
+        "description": "Haben eine Schwerbehinderung, weil Arme, Beine oder Teile davon fehlen.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.00053,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
       },
       {
-        "characteristic": "Funktionseinschränkung der Wirbelsäule und des Rumpfes, Deformierung des Brustkorbes",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.009553
+        "characteristic": "Schwerbehinderung: eingeschränkte Arme oder Beine",
+        "description": "Haben eine Schwerbehinderung, weil Arme oder Beine nur eingeschränkt beweglich oder belastbar sind.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.009069,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
       },
       {
-        "characteristic": "Blindheit und Sehbehinderung",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.00402
+        "characteristic": "Schwerbehinderung: Rücken oder Oberkörper",
+        "description": "Haben eine Schwerbehinderung, weil Wirbelsäule oder Oberkörper nur eingeschränkt funktionieren.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.008754,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
       },
       {
-        "characteristic": "Sprach- oder Sprechstörungen, Taubheit, Schwerhörigkeit, Gleichgewichtsstörungen",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.003831
+        "characteristic": "Schwerbehinderung: Blindheit oder Sehbehinderung",
+        "description": "Haben eine Schwerbehinderung, weil sie blind sind oder sehr schlecht sehen.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.00382,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
       },
       {
-        "characteristic": "Querschnittlähmung, Zerebrale Störungen, Geistig-Seelische Behinderungen, Suchtkrankheiten",
-        "source": "Statistische Bundesamt",
-        "link": "https://www.gbe-bund.de/gbe/isgbe.fundstellen?p_uid=gast&p_aid=29050376&p_sprache=D&p_thema_id=4800&p_action=TRT#wrap",
-        "percentage": 0.021461
+        "characteristic": "Schwerbehinderung: Hören, Sprechen oder Gleichgewicht",
+        "description": "Haben eine Schwerbehinderung, weil Hören, Sprechen oder das Gleichgewicht stark eingeschränkt sind.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.003856,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
+      },
+      {
+        "characteristic": "Schwerbehinderung: Gehirn, Psyche, Lähmung oder Sucht",
+        "description": "Haben eine Schwerbehinderung wegen Querschnittlähmung, einer Erkrankung des Gehirns, einer psychischen Erkrankung oder Sucht.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.022593,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
+      },
+      {
+        "characteristic": "Schwerbehinderung: geistige Behinderung oder Hirnschädigung",
+        "description": "Haben eine Schwerbehinderung wegen geistiger Behinderung, Lernbehinderung, Hirnleistungsschwäche oder Anfällen wie Epilepsie.",
+        "source": "Statistisches Bundesamt (Schwerbehindertenstatistik 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Publikationen/Downloads-Behinderte-Menschen/statistischer-bericht-schwerbehinderte-2130510259005.xlsx?__blob=publicationFile",
+        "percentage": 0.012639,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland (nur amtlich anerkannt)"
+      },
+      {
+        "characteristic": "Pflegebedarf",
+        "description": "Haben einen anerkannten Pflegegrad und brauchen im Alltag regelmäßig Hilfe.",
+        "source": "Statistisches Bundesamt (Pflegestatistik 2023)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html",
+        "percentage": 0.068,
+        "year": "2023",
+        "basis": "Alle Menschen in Deutschland"
+      },
+      {
+        "characteristic": "Hörgerät",
+        "description": "Nutzen ein Hörgerät, um besser zu hören.",
+        "source": "Robert Koch-Institut (GEDA 2019/2020-EHIS)",
+        "link": "https://doi.org/10.25646/14328",
+        "percentage": 0.054,
+        "year": "2019/2020",
+        "basis": "Erwachsene ab 18 Jahren"
+      },
+      {
+        "characteristic": "Rollstuhl, Rollator oder E-Mobil",
+        "description": "Brauchen unterwegs in der Regel einen Rollstuhl, einen Rollator oder ein Elektromobil.",
+        "source": "Bundesministerium für Verkehr (Mobilität in Deutschland 2023)",
+        "link": "https://www.mobilitaet-in-deutschland.de/pdf/MiD2023_Ergebnisbericht.pdf",
+        "percentage": 0.038,
+        "year": "2023",
+        "basis": "Erwachsene ab 18 Jahren"
+      },
+      {
+        "characteristic": "Migräne",
+        "description": "Haben immer wieder starke Kopfschmerzanfälle, oft mit Übelkeit und Empfindlichkeit gegenüber Licht und Lärm.",
+        "source": "Robert Koch-Institut (BURDEN 2020)",
+        "link": "https://doi.org/10.25646/6988",
+        "percentage": 0.105,
+        "year": "2019/2020",
+        "basis": "Erwachsene ab 18 Jahren"
       }
     ]
   },
@@ -165,87 +279,75 @@
     "data": [
       {
         "characteristic": "Genügsame Verdränger*innen (Offliner*innen)",
+        "description": "Nutzen das Internet nicht und sehen für sich keinen Nutzen darin („Kann ich nicht – brauch' ich nicht.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.06
+        "percentage": 0.06,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
         "characteristic": "Zufriedene Aussitzer*innen",
+        "description": "Haben nur wenige digitale Kenntnisse und möchten auch nicht mehr lernen („Das Nötigste reicht mir vollkommen aus.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.09
+        "percentage": 0.09,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
         "characteristic": "Ablehnende Mitte",
+        "description": "Sind online, stehen der Digitalisierung aber eher skeptisch gegenüber („Wo soll das noch alles hinführen?“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.24
+        "percentage": 0.24,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
         "characteristic": "Aufgeschlossene Mitte",
+        "description": "Haben mittlere digitale Kenntnisse und sehen die Digitalisierung positiv („Auf die Digitalisierung will ich nicht mehr verzichten.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.25
+        "percentage": 0.25,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
         "characteristic": "Ambivalente Profis",
+        "description": "Haben gute digitale Kenntnisse, sehen die Digitalisierung aber zwiegespalten („Zur Digitalisierung sag' ich ‚jein‘.“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.13
+        "percentage": 0.13,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
         "characteristic": "Zuversichtliche Profis",
+        "description": "Haben sehr gute digitale Kenntnisse und sehen die Digitalisierung sehr positiv („Die Zukunft ist digital und das ist auch gut so!“).",
         "source": "D21 Digital-Index 2025",
         "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2024-25/D21DigitalIndex_2024-2025.pdf",
-        "percentage": 0.23
+        "percentage": 0.23,
+        "year": "2024",
+        "basis": "Deutschsprachige Menschen ab 14 Jahren"
       },
       {
-        "characteristic": "Deutsch auf Level A1",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.04
+        "characteristic": "Andere Sprache als Deutsch zu Hause",
+        "description": "Verständigten sich zu Hause vorwiegend oder ausschließlich in einer anderen Sprache als Deutsch.",
+        "source": "Statistisches Bundesamt (Mikrozensus 2024)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_08_p002.html",
+        "percentage": 0.186,
+        "year": "2024",
+        "basis": "Menschen in Privathaushalten"
       },
       {
-        "characteristic": "Deutsch auf Level A2",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.16
-      },
-      {
-        "characteristic": "Deutsch auf Level B1",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.4
-      },
-      {
-        "characteristic": "Deutsch auf Level B2",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.33
-      },
-      {
-        "characteristic": "Deutsch auf Level C1",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.05
-      },
-      {
-        "characteristic": "Deutsch auf Level C2",
-        "source": "Universität Hamburg/Spaß am Lesen Verlag",
-        "link": "https://science.apa.at/wp-content/uploads/2020/11/APA_Whitepaper_Einfache-Sprache-leicht-gemacht.pdf",
-        "percentage": 0.02
-      },
-      {
-        "characteristic": "Begrenzte Deutschfähigkeiten",
-        "source": "Bundesministerium für Bildung und Forschung",
-        "link": "https://www.xn--mein-schlssel-zur-welt-0lc.de/de/helfen/zahlen-und-fakten/zahlen-und-fakten.html#:~:text=6%2C2%20Millionen%20Menschen%20oder,selbst%20bei%20gebr%C3%A4uchlichen%20W%C3%B6rtern%20auf.",
-        "percentage": 0.073986
-      },
-      {
-        "characteristic": "Nicht-Muttersprachler:innen",
-        "source": "Statistisches Bundesamt",
-        "link": "https://www.businessinsider.de/politik/sprache-15-prozent-aller-menschen-in-deutschland-sprechen-zu-hause-kein-oder-kaum-deutsch/#:~:text=15%20Prozent%20aller%20Menschen%20in%20Deutschland%20sprechen%20zuhause%20kein%20oder%20kaum%20Deutsch&text=15%20Prozent%20der%20Menschen%2C%20die,zum%20%E2%80%9ETag%20der%20Muttersprache%E2%80%9C.",
-        "percentage": 0.15
+        "characteristic": "Keine digitalen Grundkenntnisse",
+        "description": "Haben nicht in allen fünf Bereichen digitale Grundkenntnisse, zum Beispiel beim Suchen von Informationen, Kommunizieren oder beim Schutz vor Online-Risiken.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i21/default/table?lang=en",
+        "percentage": 0.405,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
       }
     ]
   },
@@ -253,22 +355,99 @@
     "name": "Technologiezugang",
     "data": [
       {
-        "characteristic": "Kein mobiler Internetzugriff",
-        "source": "D21 Digital-Index 2022/23",
-        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/D21-Digital-Index/2022-23/d21digitalindex_2022-2023.pdf",
-        "percentage": 0.16
+        "characteristic": "Kein Internet auf dem Handy",
+        "description": "Waren in den letzten 3 Monaten nicht mit dem Handy oder Smartphone im Internet.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_dev_i/default/table?lang=en",
+        "percentage": 0.126,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
       },
       {
         "characteristic": "Kein Smartphone",
+        "description": "Nutzen privat kein Smartphone.",
         "source": "Bitkom",
-        "link": "https://www.deutschlandfunkkultur.de/qr-code-zwang-zur-digitalisierung-100.html#:~:text=Laut%20einer%20Erhebung%20des%20Branchenverbands,Teil%20des%20%C3%B6ffentlichen%20Lebens%20ausgeschlossen.",
-        "percentage": 0.1
+        "link": "https://www.bitkom.org/Presse/Presseinformation/Smartphone-KI-fuer-ein-Drittel-Alltag",
+        "percentage": 0.14,
+        "year": "2026",
+        "basis": "Menschen ab 16 Jahren"
       },
       {
-        "characteristic": "Kein Internetzugang",
+        "characteristic": "Keine Internetnutzung (letzte 12 Monate)",
+        "description": "Waren in den letzten 12 Monaten nicht im Internet.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ifp_iu/default/table?lang=en",
+        "percentage": 0.045,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      },
+      {
+        "characteristic": "Keine Internetnutzung (noch nie)",
+        "description": "Waren noch nie im Internet.",
         "source": "Statistisches Bundesamt",
-        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/_inhalt.html",
-        "percentage": 0.04
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_09_p002.html",
+        "percentage": 0.034,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      },
+      {
+        "characteristic": "Internet nur auf dem Handy",
+        "description": "Sind nur mit dem Handy online, nicht mit Computer, Laptop oder Tablet.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_dev_i/default/table?lang=en",
+        "percentage": 0.19,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      },
+      {
+        "characteristic": "Kein Online-Banking",
+        "description": "Haben in den letzten 3 Monaten kein Online-Banking genutzt.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table?lang=en",
+        "percentage": 0.293,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      },
+      {
+        "characteristic": "Keine E-Mail",
+        "description": "Haben in den letzten 3 Monaten keine E-Mails geschrieben oder gelesen.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table?lang=en",
+        "percentage": 0.122,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      }
+    ]
+  },
+  {
+    "name": "Digitale Verwaltung",
+    "data": [
+      {
+        "characteristic": "Keine Online-Angebote von Behörden genutzt",
+        "description": "Haben in den letzten 12 Monaten keine Website oder App einer Behörde genutzt.",
+        "source": "Eurostat",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ciegi_ac/default/table?lang=en",
+        "percentage": 0.335,
+        "year": "2025",
+        "basis": "Menschen von 16 bis 74 Jahren"
+      },
+      {
+        "characteristic": "Kein Online-Ausweis genutzt",
+        "description": "Haben die Online-Funktion des Personalausweises noch nie genutzt.",
+        "source": "Initiative D21/TU München (eGovernment MONITOR 2026)",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2026/D21-eGovMon2026.pdf",
+        "percentage": 0.71,
+        "year": "2026",
+        "basis": "Internetnutzende ab 16 Jahren mit Personalausweis"
+      },
+      {
+        "characteristic": "Keine BundID genutzt",
+        "description": "Nutzen die BundID nicht, das zentrale Konto für Online-Anträge bei Behörden.",
+        "source": "Initiative D21/TU München (eGovernment MONITOR 2026)",
+        "link": "https://initiatived21.de/uploads/03_Studien-Publikationen/eGovernment-MONITOR/2026/D21-eGovMon2026.pdf",
+        "percentage": 0.79,
+        "year": "2026",
+        "basis": "Internetnutzende ab 16 Jahren"
       }
     ]
   },
@@ -276,16 +455,99 @@
     "name": "Soziale Lage",
     "data": [
       {
-        "characteristic": "Armutsbetroffen",
-        "source": "Statistisches Bundesamt",
-        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/05/PD23_190_63.html",
-        "percentage": 0.209
+        "characteristic": "Armutsgefährdet (wenig Einkommen)",
+        "description": "Haben weniger als 60 % des mittleren Einkommens, als Alleinlebende zum Beispiel weniger als 1.446 € netto im Monat.",
+        "source": "Statistisches Bundesamt (EU-SILC 2025)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_039_63.html",
+        "percentage": 0.161,
+        "year": "2025",
+        "basis": "Menschen in Privathaushalten"
+      },
+      {
+        "characteristic": "Materielle Entbehrung (kann sich Grundlegendes nicht leisten)",
+        "description": "Können sich mindestens 7 von 13 Dingen des Alltags nicht leisten, zum Beispiel unerwartete Ausgaben, eine warme Wohnung oder Urlaub.",
+        "source": "Eurostat (EU-SILC 2025)",
+        "link": "https://ec.europa.eu/eurostat/databrowser/view/ilc_mdsd11/default/table?lang=en",
+        "percentage": 0.056,
+        "year": "2025",
+        "basis": "Menschen in Privathaushalten"
       },
       {
         "characteristic": "Eingewandert",
+        "description": "Sind selbst seit 1950 nach Deutschland eingewandert.",
+        "source": "Statistisches Bundesamt (Mikrozensus 2025)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_128_125.html",
+        "percentage": 0.198,
+        "year": "2025",
+        "basis": "Menschen in Privathaushalten"
+      },
+      {
+        "characteristic": "Mit Einwanderungsgeschichte",
+        "description": "Sind selbst nach Deutschland eingewandert oder beide Eltern sind seit 1950 eingewandert.",
+        "source": "Statistisches Bundesamt (Mikrozensus 2025)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_128_125.html",
+        "percentage": 0.263,
+        "year": "2025",
+        "basis": "Menschen in Privathaushalten"
+      },
+      {
+        "characteristic": "Ohne deutsche Staatsangehörigkeit",
+        "description": "Haben keine deutsche Staatsangehörigkeit.",
         "source": "Statistisches Bundesamt",
-        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/04/PD23_158_125.html",
-        "percentage": 0.184
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/zensus-geschlecht-staatsangehoerigkeit-2025.html",
+        "percentage": 0.149,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland"
+      },
+      {
+        "characteristic": "Geflüchtet",
+        "description": "Leben aus humanitären, politischen oder völkerrechtlichen Gründen als Schutzsuchende in Deutschland.",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_162_125.html",
+        "percentage": 0.039,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland"
+      },
+      {
+        "characteristic": "Ohne Schulabschluss",
+        "description": "Haben keinen allgemeinen Schulabschluss, also zum Beispiel keinen Hauptschulabschluss.",
+        "source": "Statistisches Bundesamt (Mikrozensus 2025)",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsindikatoren/bildungsstand-tabelle.html",
+        "percentage": 0.057,
+        "year": "2025",
+        "basis": "Menschen ab 15 Jahren"
+      }
+    ]
+  },
+  {
+    "name": "Alter und Lebenssituation",
+    "data": [
+      {
+        "characteristic": "65 Jahre und älter",
+        "description": "Sind 65 Jahre oder älter.",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/bevoelkerung-ab-65-j.html",
+        "percentage": 0.231,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland"
+      },
+      {
+        "characteristic": "80 Jahre und älter",
+        "description": "Sind 80 Jahre oder älter.",
+        "source": "Statistisches Bundesamt",
+        "link": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-basis-2022.html",
+        "percentage": 0.07,
+        "year": "2025",
+        "basis": "Alle Menschen in Deutschland"
+      },
+      {
+        "characteristic": "Alleinerziehend",
+        "description": "Leben ohne Partnerin oder Partner mit Kindern unter 18 Jahren in einem Haushalt.",
+        "source": "Statistisches Bundesamt (Mikrozensus 2025)",
+        "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_N051_12.html",
+        "percentage": 0.0196,
+        "year": "2025",
+        "basis": "Menschen in Privathaushalten"
       }
     ]
   }
