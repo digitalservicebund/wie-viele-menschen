@@ -1,5 +1,16 @@
 # How many people
 
+> [!WARNING]
+> 🇬🇧
+> This repository is archived and no longer maintained. The project has moved to
+> [gitlab.opencode.de/digitalservicebund/accessibility/barrierefreiheits-personas](https://gitlab.opencode.de/digitalservicebund/accessibility/barrierefreiheits-personas)
+> and is now part of another website.
+>
+> 🇩🇪
+> Dieses Repository ist archiviert und wird nicht mehr gepflegt. Das Projekt ist umgezogen nach
+> [gitlab.opencode.de/digitalservicebund/accessibility/barrierefreiheits-personas](https://gitlab.opencode.de/digitalservicebund/accessibility/barrierefreiheits-personas)
+> und ist jetzt Teil einer anderen Website.
+
 A small website that displays how many of your users in Germany statistically have some type of disability.
 
 ## Prerequisites
